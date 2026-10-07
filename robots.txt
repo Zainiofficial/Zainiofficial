@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://zainiiofficial.netlify.app/sitemap.xml

@@ -1,0 +1,461 @@
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .box-logo,
+  .expertse-box,
+  .skill {
+    border-radius: 4px;
+  }
+  body,
+  html {
+    overflow-x: hidden;
+  }
+  .banner-container {
+    padding: 100px 40px 50px;
+    gap: 30px;
+  }
+  .left-section h1 {
+    font-size: 52px;
+  }
+  .left-section h2 {
+    font-size: 35px;
+  }
+  .left-section .dev-description {
+    font-size: 22px;
+    width: 95%;
+  }
+  .company-right .currentlt-working,
+  .hobbies-wrapper h2,
+  .inner-heading h3,
+  .me-about-wrapper h2,
+  .work-section h2 {
+    font-size: 20px;
+    padding: 2px 13px 2px 30px;
+  }
+  .titlebg h2 {
+    font-size: 80px !important;
+  }
+  .header {
+    padding: 15px 20px 10px;
+  }
+  .company-right p,
+  .nav-links ul li a,
+  .right-hobby-caption p {
+    font-size: 16px;
+  }
+  .copyright-caption p,
+  .input-field input,
+  .privacy-caption p,
+  .right-hobby-caption h3,
+  .skill h3 {
+    font-size: 20px;
+  }
+  .about,
+  .company-container,
+  .hobbies-wrapper,
+  .skill-wrapper,
+  .work-section {
+    padding: 60px 25px;
+    margin-bottom: 40px;
+  }
+  .about-grid-wrapper {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 7px;
+  }
+  .work-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 11px;
+  }
+  .creative-container,
+  .footer-flex-container,
+  .skills-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .company-container {
+    gap: 19px;
+    align-items: end;
+  }
+  .creative-container {
+    gap: 7px;
+  }
+  .hobbies {
+    gap: 20px;
+    flex-direction: column;
+    margin-bottom: 25px;
+  }
+  .num-line {
+    height: 7vh !important;
+  }
+  .footer {
+    padding: 50px 30px;
+  }
+  .footer-flex-container {
+    display: grid;
+    grid-row-gap: 60px;
+    margin-bottom: 20px;
+    padding-bottom: 36px;
+  }
+  .box-logo,
+  .opening-project:before {
+    display: none;
+  }
+  .foote-logo,
+  .footer-links,
+  .hoby-left,
+  .hoby-right,
+  .news-leter,
+  .services {
+    width: 100%;
+  }
+  .mail-box-container {
+    width: 100%;
+    border-radius: 4px;
+    display: none;
+  }
+  .privacy-caption {
+    gap: 59px;
+  }
+  .skills-container {
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+  }
+  .skill {
+    padding: 8px;
+  }
+  .skill h3 {
+    margin-bottom: 2px;
+    line-height: 1;
+  }
+  .skill p {
+    font-size: 16px;
+    line-height: 1.3;
+  }
+  .about-right > h2,
+  .about-right > h2 span {
+    font-size: 35px;
+    line-height: 1;
+  }
+  .icon-opening svg,
+  .skill-image svg {
+    width: 40px;
+    height: 40px;
+  }
+  .inner-heading h3:before {
+    content: "";
+    position: absolute;
+    top: 36%;
+    left: 4%;
+    width: 8px;
+    height: 8px;
+    background: var(--cyan);
+    border-radius: 50px;
+  }
+  .bab-button a .icon,
+  .bab-button a:before,
+  .box-logo svg {
+    width: 35px;
+    height: 35px;
+  }
+  .about-right > h2 {
+    color: var(--light-black);
+    margin-bottom: 0;
+  }
+  .about-right > h3 {
+    font-size: 20px;
+    line-height: 1;
+    margin-bottom: 5px;
+  }
+  .about-right p {
+    font-size: 16px;
+    line-height: 1.2;
+    margin-bottom: 9px;
+  }
+  .about-wrapper {
+    gap: 20px;
+    align-items: end;
+  }
+  .box-logo {
+    padding: 5px;
+    width: 35px !important;
+    height: 35px !important;
+    margin-bottom: 4px;
+  }
+  .expertse-box h3 {
+    font-size: 22px;
+    margin-bottom: 3px;
+    line-height: 1;
+  }
+  .expertse-box {
+    padding: 7px;
+  }
+  .about-left,
+  .left-card-one,
+  .slide h2 span {
+    border-radius: 5px;
+  }
+  .expertse-box p {
+    font-size: 16px;
+    width: 100%;
+  }
+  .bab-button a span {
+    font-size: 17px;
+    padding: 0 12px !important;
+    height: 35px;
+  }
+  .creative-box,
+  .opening-project {
+    border-radius: 4px;
+  }
+  .dev-vector {
+    position: absolute;
+    top: 42%;
+    left: 17%;
+    width: 50%;
+  }
+  .nav-links ul {
+    gap: 13px;
+  }
+  .header .logo {
+    width: 17%;
+  }
+  .bab-button a:before {
+    border-radius: 3px;
+  }
+  .hobbies-wrapper > p,
+  .inner-heading p,
+  .mail-caption h3,
+  .work-section p {
+    font-size: 22px;
+  }
+  .work-image-container {
+    height: auto;
+    width: 100%;
+    aspect-ratio: 16/9;
+    overflow: hidden;
+  }
+  .work-image-container img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+  .loweer-work-data h3 {
+    font-size: 15px;
+    margin-bottom: 5px;
+    font-weight: 500;
+  }
+  .loweer-work-data {
+    padding: 6px 7px 8px 11px;
+  }
+  .work-butn-wrapper a {
+    font-size: 14px;
+    border-radius: 3px;
+    padding: 1px 6px;
+    cursor: pointer;
+  }
+  .company-right h2 {
+    font-size: 30px;
+    width: 100%;
+    line-height: 1.1;
+    margin-bottom: 6px;
+  }
+  .company-right h2 span {
+    display: block;
+  }
+  .left-grid-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 6px;
+    background: #fff;
+    padding: 0;
+  }
+  .opening-project {
+    background: var(--cyan);
+    padding: 5px 5px 5px 11px;
+    gap: 10px;
+  }
+  .ongoing-project-caption h4 {
+    font-size: 25px;
+  }
+  .ongoing-project-caption p {
+    font-size: 20px;
+    font-weight: 500;
+    width: 100%;
+  }
+  .creative-logo-image {
+    padding: 5px;
+    border-radius: 4px;
+    height: 33px;
+    width: 33px;
+  }
+  .creative-logo-image svg {
+    width: 30px;
+    height: 30px;
+  }
+  .creative-logo h3 {
+    width: 60%;
+    font-size: 13px;
+    font-weight: 600;
+  }
+  .creative-box p {
+    font-size: 11px;
+  }
+  .company-right p span {
+    margin: 0 5px 0 7px;
+    font-weight: 500;
+  }
+  .hobbies-wrapper > p {
+    width: 70%;
+  }
+  .hoby-items:before {
+    width: 15px;
+    height: 15px;
+  }
+  .number-divider p {
+    font-size: 30px;
+  }
+  .slide h2,
+  .slide h2 span {
+    font-size: 45px;
+    font-weight: 700;
+  }
+  .hoby-items {
+    margin-bottom: 15px;
+  }
+  .hby-btn {
+    border-radius: 3px;
+    padding: 1px 10px 2px;
+  }
+  .forward-btn {
+    margin-left: 10px;
+  }
+  .fueling-growth {
+    display: flex;
+    background: var(--cyan);
+    padding: 13px 12px;
+    position: relative;
+    gap: 14px;
+  }
+  .fueling-growth .opening-project {
+    background: 0 0;
+    border-radius: 0;
+    padding: 0;
+  }
+  .fueling-growth .ongoing-project-caption h4 {
+    font-size: 15px;
+  }
+  .fueling-growth .ongoing-project-caption p {
+    font-size: 13px;
+  }
+  .fueling-growth .opening-project .icon-opening svg {
+    width: 50px;
+    height: 50px;
+  }
+  .slide h2 {
+    word-spacing: -18px;
+    letter-spacing: -4px;
+    color: var(--light-black);
+  }
+  .slide h2 span {
+    background: var(--cyan);
+    padding: 5px 12px;
+    color: #fff;
+    letter-spacing: -2px;
+    margin: 0 14px 0 17px;
+  }
+  .slide {
+    flex-shrink: 0;
+    margin: 0 58px;
+    display: inline-block;
+  }
+  .footer-image,
+  .footer-links ul li:before {
+    width: 80%;
+  }
+  .foote-logo p {
+    font-size: 24px;
+    line-height: 1.2;
+    margin-bottom: 10px;
+  }
+  .social-icon-container h4 {
+    font-size: 35px;
+    margin-bottom: 21px;
+  }
+  .social-icon {
+    gap: 18px;
+    margin-bottom: 30px;
+  }
+  .item-social-box svg {
+    width: 45px;
+    height: 45px;
+  }
+  .item-social-box {
+    padding: 5px;
+    border-radius: 6px;
+  }
+  .mail-box:before {
+    bottom: -2px;
+    width: 100%;
+  }
+  .mail-box,
+  .phone-box {
+    gap: 17px;
+  }
+  .footer-links h3,
+  .news-leter h3,
+  .services h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  .footer-links ul,
+  .services ul {
+    gap: 20px;
+  }
+  .footer-links ul li a,
+  .services ul li a {
+    font-size: 25px;
+    font-weight: 400;
+    gap: 10px;
+  }
+  .footer-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 60px;
+  }
+  .footer-links ul li a svg,
+  .services ul li a svg {
+    width: 25px;
+    height: 25px;
+  }
+  .news-leter p {
+    font-size: 25px;
+    width: 100%;
+    line-height: 1.4;
+    font-weight: 300;
+  }
+  .input-field {
+    max-width: 365px;
+  }
+  .input-field input::placeholder {
+    font-size: 20px;
+    padding-left: 5px;
+  }
+  .spam-image {
+    width: 8%;
+  }
+  .no-spam p {
+    font-size: 19px;
+    width: 92%;
+  }
+  .copyright-caption svg {
+    width: 20px;
+    height: 20px;
+  }
+  .copy-right {
+    align-items: flex-start;
+    gap: 50px;
+    flex-direction: column-reverse;
+  }
+  .no-spam {
+    gap: 4px;
+    align-items: center;
+  }
+}

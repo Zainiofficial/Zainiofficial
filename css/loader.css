@@ -1,0 +1,9 @@
+#svglogo.logoanim {
+  animation-name: titleAnimation;
+  animation-timing-function: ease;
+  animation-duration: 1s;
+}
+
+.titlebg.titleanim {
+  animation: 0.7s cubic-bezier(0.56, 0.17, 0.68, 1) 0.3s forwards slideUp;
+}
