@@ -1,0 +1,260 @@
+@media screen and (min-width: 1024px) and (max-width: 1366px) {
+  .nav-links ul li a {
+    font-size: 1.5vw;
+  }
+  .header .logo {
+    width: 16%;
+  }
+  .hi-btn p {
+    border-radius: 4px;
+  }
+  .left-section h1 {
+    font-size: 8vw;
+  }
+
+  .left-section h2 {
+    font-size: 3.5vw;
+  }
+  .dev-vector {
+    position: absolute;
+    top: 59%;
+    left: 14%;
+    width: 42%;
+  }
+  .left-section .dev-description {
+    font-size: 1.5vw;
+  }
+  .bab-button.dark-btn a span {
+    font-size: 1.2vw;
+  }
+  .expertse-box h3 {
+    font-size: 1.7vw;
+    line-height: 1;
+  }
+  .expertse-box p {
+    font-size: 1.1vw;
+    font-weight: 400;
+  }
+  .box-logo {
+    width: 45px;
+    height: 45px;
+    border-radius: 4px;
+    margin-bottom: 0.5vw;
+  }
+  .expertse-box {
+    border-radius: 4px;
+  }
+  .me-about-wrapper h2 {
+    border-radius: 4px;
+  }
+  .hi-btn p,
+  .inner-heading h3,
+  .me-about-wrapper h2 {
+    padding: 0.1vw 0.6vw 0.1vw 2.2vw;
+  }
+  .hobbies-wrapper > p,
+  .inner-heading p,
+  .work-section p {
+    font-size: 2vw;
+    line-height: 1;
+  }
+  .skill h3 {
+    font-size: 1.8vw;
+    line-height: 1;
+    margin-bottom: 4px;
+  }
+
+  .skill p {
+    font-size: 1.4vw;
+    line-height: 1.2;
+  }
+  .skills-container,
+  .work-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .skill {
+    padding: 1vw 1.5vw;
+    border-radius: 4px;
+  }
+  .work-image-container {
+    height: 30vh;
+  }
+  .loweer-work-data h3 {
+    font-size: 1.4vw;
+  }
+  .work-item {
+    border-radius: 4px;
+  }
+  .work-butn-wrapper a {
+    font-size: 1vw;
+    border-radius: 3px;
+    padding: 3px 10px 3px 10px;
+    font-weight: 500;
+  }
+  .loweer-work-data {
+    padding: 0.3vw 1vw 0.6vw 1vw;
+  }
+  .work-section p {
+    width: 70%;
+    line-height: 1;
+  }
+  .bab-button a {
+    border-radius: 4px;
+  }
+  .creative-box {
+    border-radius: 4px;
+  }
+  .company-right .currentlt-working,
+  .hobbies-wrapper h2,
+  .work-section h2,
+  .every-where-caption p {
+    border-radius: 4px;
+  }
+  .company-right h2 {
+    font-size: 3vw;
+    width: 80%;
+    line-height: 1;
+  }
+  .company-right h2 span {
+    margin: 0 1vw;
+  }
+  .company-right p {
+    font-weight: 500;
+  }
+  .creative-logo h3 {
+    font-size: 1.1vw;
+    font-weight: 800;
+  }
+  .creative-logo-image {
+    width: fit-content;
+  }
+  .creative-logo h3 {
+    width: fit-content;
+  }
+  .creative-box p {
+    font-size: 1.1vw;
+    font-weight: 500;
+  }
+  .icon-opening svg {
+    width: 35px;
+    height: 35px;
+  }
+  .opening-project {
+    gap: 5px;
+  }
+  .ongoing-project-caption p {
+    font-size: 1.1vw;
+    width: fit-content;
+    font-weight: 700;
+    margin-bottom: 5px;
+  }
+  .opening-project:before {
+    left: -13px;
+    width: 2px;
+  }
+  .opening-project:first-child:before {
+    display: none;
+  }
+  .ongoing-project-caption h4 {
+    font-size: 1.8vw;
+    line-height: 1;
+  }
+  .left-grid-container {
+    border-radius: 4px;
+  }
+  .hobbies-image {
+    border-radius: 4px;
+  }
+  .hoby-items {
+    border-radius: 4px;
+  }
+  .inner-hobbies svg {
+    width: 60px;
+    height: 60px;
+  }
+  .hoby-items {
+    padding: 0.7vw 2vw 0.7vw 2vw;
+  }
+  .hby-btn {
+    border-radius: 3px;
+    padding: 1px 15px 3px 15px;
+    font-weight: 500;
+    margin-bottom: 10px !important;
+  }
+  .right-hobby-caption p {
+    margin-bottom: 0 !important;
+    font-size: 1.3vw;
+    line-height: 1.1;
+    font-weight: 400;
+  }
+
+  .left-grid-container.fueling-growth .opening-project {
+    align-items: center;
+    gap: 1vw;
+  }
+
+  .left-grid-container.fueling-growth .ongoing-project-caption h4 {
+    font-size: 1.3vw;
+    line-height: 1;
+  }
+
+  .left-grid-container.fueling-growth .ongoing-project-caption p {
+    font-size: 1.2vw;
+  }
+
+  .left-grid-container.fueling-growth .opening-project:before {
+    left: -13px;
+  }
+  .sm-num p {
+    font-size: 1.4vw;
+  }
+
+  .sm-num h3 {
+    font-size: 2.5vw;
+  }
+
+  .every-where-caption .journey {
+    font-size: 1.5vw;
+  }
+
+  .every-where-caption h2 {
+    font-size: 5vw;
+    line-height: 1;
+  }
+
+  .every-where-caption h2 span {
+    font-weight: bold;
+  }
+  .slide h2 {
+    letter-spacing: -7px;
+    word-spacing: -24px;
+  }
+
+  .slide h2 span {
+    border-radius: 8px;
+    margin-right: 14px;
+  }
+  .forward-btn svg {
+    width: 40px;
+    height: 40px;
+  }
+  .num-line {
+    height: 10vh;
+  }
+
+  .left-grid-container.fueling-growth {
+    padding: 1.3vw 0.8vw;
+  }
+
+  .about-right > h2 {
+    line-height: 1;
+  }
+
+  .about-right > h3 {
+    line-height: 1;
+  }
+
+  .logo-container > p {
+    margin-bottom: 1.5vw;
+  }
+}

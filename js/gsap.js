@@ -212,18 +212,56 @@ document.addEventListener("DOMContentLoaded", function () {
         opacity: 0,
         stagger: 0.15,
         duration: 0.8,
-      })),
-    document.querySelector(".footer") &&
-      gsap.from(".footer-flex-container > div", {
-        scrollTrigger: {
-          trigger: ".footer",
-          scroller: e(),
-          start: "top 85%",
-          toggleActions: "play none none reverse",
-        },
-        y: 40,
-        opacity: 0,
-        stagger: 0.08,
-        duration: 0.8,
-      }));
+      })));
+
+  // SOCIAL LINKS SECTION — LEFT SIDE TEXT
+  gsap.from(".every-where-caption > *", {
+    scrollTrigger: {
+      trigger: "#contact",
+      scroller: e(),
+      start: "top 80%",
+      toggleActions: "play none none reverse",
+    },
+    x: -40,
+    opacity: 0,
+    stagger: 0.15,
+    duration: 0.8,
+    ease: "power2.out",
+  });
+
+  // SOCIAL LINKS SECTION — SOCIAL CARDS
+  gsap.from(".sm-links .sm-card", {
+    scrollTrigger: {
+      trigger: ".sm-links",
+      scroller: e(),
+      start: "top 85%",
+      toggleActions: "play none none reverse",
+    },
+    y: 40,
+    opacity: 0,
+    stagger: 0.15,
+    duration: 0.7,
+    ease: "power2.out",
+    onComplete: function () {
+      gsap.set(".sm-links .sm-card", {
+        clearProps: "transform",
+      });
+    },
+  });
+
+  // FOOTER SECTION
+  document.querySelector("footer") &&
+    gsap.from("footer > *", {
+      scrollTrigger: {
+        trigger: "footer",
+        scroller: e(),
+        start: "top 90%",
+        toggleActions: "play none none reverse",
+      },
+      y: 25,
+      opacity: 0,
+      stagger: 0.12,
+      duration: 0.7,
+      ease: "power2.out",
+    });
 });
