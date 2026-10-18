@@ -101,17 +101,44 @@
 </head>
 
 <body>
-    <loader>
-        <div class="titlebg titleanim">
-            <h2 class="svglogo logoanim" id="zain ali">
-                Welcome
-            </h2>
+    <div class="zl-loader" id="zlLoader" role="status" aria-live="polite" aria-label="Loading">
+        <div class="zl-wrap">
+            <div class="zl-logo">
+                <img class="zl-box zl-box--1" src="images/loader/box-1.webp" alt="" width="118" height="95"
+                    draggable="false" decoding="async">
+                <img class="zl-box zl-box--2" src="images/loader/box-2.webp" alt="" width="118" height="111"
+                    draggable="false" decoding="async">
+                <img class="zl-box zl-box--3" src="images/loader/box-3.webp" alt="" width="130" height="121"
+                    draggable="false" decoding="async">
+                <div class="zl-zclip">
+                    <img class="zl-zaini" src="images/loader/zaini.webp" alt="" width="449" height="286"
+                        draggable="false" decoding="async">
+                </div>
+                <div class="zl-oclip">
+                    <img class="zl-official" src="images/loader/official.webp" alt="" width="590" height="146"
+                        draggable="false" decoding="async">
+                </div>
+            </div>
+            <div class="zl-bar"><span></span></div>
         </div>
-    </loader>
+    </div>
+    <noscript>
+        <style>
+            .zl-loader {
+                display: none !important
+            }
+
+            html.zl-lock,
+            html.zl-lock body {
+                overflow: auto !important
+            }
+        </style>
+    </noscript>
+    <script src="js/loader.js"></script>
     <header class="header" id=header>
         <div class="logo">
             <a href="index.html">
-                <img src="images/zaini-official-logo,transparent.png" alt="zaini offical logo">
+                <img src="images/zaini-logo-black.png" alt="zaini offical logo">
             </a>
         </div>
         <div class="menu-btn" id=menu-btn>☰</div>
@@ -1331,7 +1358,7 @@
                         </p>
                         <div class="maps_holder">
                             <div class="map-hold">
-                                <a href="javascript:void(0)">
+                                <a href="mailto:zainalizani658@gmail.com">
                                     <div class="map-svg">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
                                             viewBox="0 0 24 24" fill="">
@@ -1340,11 +1367,12 @@
                                                 d="M4 20q-.825 0-1.412-.587T2 18V6q0-.825.588-1.412T4 4h16q.825 0 1.413.588T22 6v12q0 .825-.587 1.413T20 20zm8-7l8-5V6l-8 5l-8-5v2z" />
                                         </svg>
                                     </div>
-                                    <p>Lahore,Pakistan</p>
+                                    <p>Email</p>
                                 </a>
                             </div>
                             <div class="map-hold">
-                                <a href="javascript:void(0)">
+                                <a href="https://www.google.com/maps/search/?api=1&query=Lahore%2C+Pakistan"
+                                    target="_blank">
                                     <div class="map-svg">
                                         <svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
                                             xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 64 64"
@@ -1365,7 +1393,7 @@
                                             </g>
                                         </svg>
                                     </div>
-                                    <p>Lahore,Pakistan</p>
+                                    <p>Lahore, Pakistan</p>
                                 </a>
                             </div>
                         </div>
@@ -1374,7 +1402,7 @@
                     <div class="links-container">
                         <h3>Quick Links</h3>
                         <ul>
-                            <li><a href="javascript:void(0)">
+                            <li><a href="#home" data-scroll-to>
                                     <svg viewBox="0 -6.5 38 38" version="1.1" xmlns="http://www.w3.org/2000/svg"
                                         xmlns:xlink="http://www.w3.org/1999/xlink" fill="">
                                         <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
@@ -1398,7 +1426,7 @@
                                     </svg>
                                     Home</a></li>
 
-                            <li><a href="javascript:void(0)">
+                            <li><a href="#about" data-scroll-to>
                                     <svg viewBox="0 -6.5 38 38" version="1.1" xmlns="http://www.w3.org/2000/svg"
                                         xmlns:xlink="http://www.w3.org/1999/xlink" fill="">
                                         <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
@@ -1422,7 +1450,7 @@
                                     </svg>
                                     About me</a></li>
 
-                            <li><a href="javascript:void(0)">
+                            <li><a href="#skill" data-scroll-to>
                                     <svg viewBox="0 -6.5 38 38" version="1.1" xmlns="http://www.w3.org/2000/svg"
                                         xmlns:xlink="http://www.w3.org/1999/xlink" fill="">
                                         <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
@@ -1469,7 +1497,7 @@
                                         </g>
                                     </svg>
                                     Gallery</a></li>
-                            <li><a href="javascript:void(0)">
+                            <li><a href="#contact" data-scroll-to>
                                     <svg viewBox="0 -6.5 38 38" version="1.1" xmlns="http://www.w3.org/2000/svg"
                                         xmlns:xlink="http://www.w3.org/1999/xlink" fill="">
                                         <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
@@ -1624,7 +1652,7 @@
                             <path fill="#fff"
                                 d="M12 2c5.52 0 10 4.48 10 10s-4.48 10-10 10S2 17.52 2 12S6.48 2 12 2m0 5c-2.76 0-5 2.24-5 5s2.24 5 5 5a5 5 0 0 0 4.288-2.428l-1.715-1.028A3 3 0 1 1 12 9c1.093 0 2.05.584 2.573 1.457l1.715-1.03A5 5 0 0 0 12 7" />
                         </svg>
-                        2025 Zaini Official. All right reserved
+                        2026 Zaini Official. All rights reserved.
                     </a>
                     <a href="javascript:void(0)">privacy Policy</a>
                     <a href="javascript:void(0)">Terms & Conditions</a>
@@ -1632,11 +1660,11 @@
             </div>
         </footer>
     </div>
-    <script src=js/gsap.min.js></script>
-    <script src=js/scrollTrigger.min.js></script>
-    <script src=js/locomotive-scroll.min.js></script>
-    <script src=js/main.js></script>
-    <script src=js/gsap.js></script>
+    <script src="js/gsap.min.js"></script>
+    <script src="js/scrollTrigger.min.js"></script>
+    <script src="js/locomotive-scroll.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/gsap.js"></script>
 </body>
 
 </html>

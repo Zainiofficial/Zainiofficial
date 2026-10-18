@@ -4,14 +4,22 @@ document.addEventListener("DOMContentLoaded", function () {
   "undefined" != typeof ScrollTrigger && gsap.registerPlugin(ScrollTrigger);
   const r = document.querySelector("[data-scroll-web_page]"),
     e = () => (window.innerWidth > 1024 && r ? r : window),
-    o = gsap.timeline({defaults: {overwrite: "auto", ease: "power3.out"}});
+    o = gsap.timeline({
+      paused: true,
+      defaults: {overwrite: "auto", ease: "power3.out"},
+    });
+
+  // Hero intro waits for the Zaini loader, then plays by itself
+  const playIntro = () => o.play();
+  if (window.__zlDone || !document.getElementById("zlLoader")) playIntro();
+  else document.addEventListener("zaini:loader-done", playIntro, {once: true});
   (o
     .from(".header", {
       y: -20,
       opacity: 0,
       duration: 0.45,
       stagger: 0.05,
-      delay: 1,
+      delay: 0.5,
     })
     .from(
       ".right-svg",
