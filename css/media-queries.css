@@ -109,9 +109,11 @@
   .hi-btn {
     margin-bottom: 5px;
   }
-  .left-section h1 {
+  .left-section h1,
+  .every-where-caption h2 {
     font-size: 40px;
     line-height: 1;
+    margin-bottom: 15px;
   }
   .left-section h2 {
     font-size: 19px;
@@ -119,7 +121,7 @@
     font-weight: 500;
   }
   .dev-vector {
-    top: 32%;
+    top: 36%;
     left: 27%;
     width: 45%;
   }
@@ -158,7 +160,8 @@
   .hobbies-wrapper h2,
   .inner-heading h3,
   .me-about-wrapper h2,
-  .work-section h2 {
+  .work-section h2,
+  .every-where-caption p {
     font-size: 25px;
     padding: 1px 8px 1px 29px;
     font-weight: 500;
@@ -203,20 +206,29 @@
     padding: 50px 25px;
     margin-bottom: 30px;
   }
-  .company-right h2,
+
   .hobbies-wrapper > p,
   .inner-heading p,
   .work-section p {
-    font-size: 22px;
+    font-size: 23px;
     width: 95%;
     margin-bottom: 10px;
+    line-height: 1.3;
+    letter-spacing: -1px;
+    word-spacing: 1px;
   }
+  .company-right h2 {
+    font-size: 35px;
+  }
+
   .skills-container {
     grid-row-gap: 30px;
   }
   .ongoing-project-caption h4,
   .skill h3 {
     font-size: 25px;
+    line-height: 1;
+    margin-bottom: 5px;
   }
   .skill p {
     font-size: 20px;
@@ -224,20 +236,23 @@
   }
   .skill {
     padding: 15px;
+    border-radius: 4px;
   }
   .skill-image {
-    width: 15%;
+    width: fit-content;
+    margin-bottom: 5px;
   }
   .work-grid {
     grid-row-gap: 20px;
   }
   .loweer-work-data {
-    padding: 1px 10px 10px;
+    padding: 5px 10px 10px;
   }
   .fueling-growth .ongoing-project-caption h4,
   .loweer-work-data h3 {
     font-size: 20px;
     margin-bottom: 5px;
+    line-height: 1;
   }
   .work-butn-wrapper a {
     border-radius: 3px;
@@ -272,7 +287,7 @@
     padding: 8px;
   }
   .creative-logo h3 {
-    font-size: 20px;
+    font-size: 22px;
     width: 55%;
   }
   .creative-logo {
@@ -280,9 +295,9 @@
     margin-bottom: 15px;
   }
   .creative-box p {
-    font-size: 22px;
+    font-size: 18px;
     margin: 0;
-    font-weight: 300;
+    font-weight: 400;
   }
   .creative-logo-image {
     display: flex;
@@ -411,83 +426,6 @@
   .slide {
     margin: 0 50px;
   }
-  .footer-flex-container {
-    flex-direction: column;
-    gap: 60px;
-    margin-bottom: 20px;
-    padding-bottom: 11px;
-  }
-  .footer-image {
-    width: 50%;
-    margin-bottom: 3px;
-  }
-  .foote-logo > p {
-    font-size: 20px;
-    margin-bottom: 31px;
-  }
-  .footer-links h3,
-  .news-leter h3,
-  .services h3,
-  .social-icon-container h4 {
-    font-size: 25px;
-    text-transform: capitalize;
-    margin-bottom: 15px;
-  }
-  .footer-links ul li a svg,
-  .services ul li a svg {
-    width: 20px;
-    height: 20px;
-  }
-  .footer-links ul li:before,
-  .services ul li:before {
-    content: "";
-    position: absolute;
-    bottom: -14px;
-    left: 0;
-    width: 86%;
-    border-bottom: 1px dashed;
-  }
-  .footer-links ul,
-  .services ul {
-    gap: 30px;
-  }
-  .social-icon {
-    gap: 22px;
-    margin-bottom: 25px;
-  }
-  .mail-box,
-  .phone-box {
-    align-items: center;
-    gap: 10px;
-    margin: 0;
-  }
-  .mail-box-container {
-    flex-direction: column;
-    display: flex;
-    gap: 20px;
-    padding: 10px;
-    width: 100%;
-  }
-  .news-leter > p {
-    font-size: 20px;
-    margin-bottom: 20px;
-    width: 90%;
-  }
-  .input-field,
-  .input-field input {
-    width: 100% !important;
-    box-sizing: border-box !important;
-  }
-  .input-field input::placeholder {
-    font-size: 20px;
-    padding-left: 5px;
-  }
-  .input-field input {
-    flex: 1 1 auto !important;
-    min-width: 0 !important;
-    font-size: 20px !important;
-    padding: 8px 6px !important;
-  }
   .no-spam {
     align-items: center;
     gap: 8px;
@@ -504,47 +442,7 @@
     margin-bottom: 20px;
   }
   .footer {
-    padding: 30px 25px;
-  }
-  .copy-right {
-    flex-direction: column;
-    align-items: baseline;
-    gap: 12px;
-  }
-  .copyright-caption {
-    margin-bottom: 6px;
-  }
-  .privacy-caption {
-    padding-left: 18px;
-    width: 100%;
-    gap: 40px;
-    align-items: flex-start;
-    justify-content: flex-start;
-    position: relative;
-  }
-  .privacy-caption:before {
-    content: "";
-    position: absolute;
-    top: 57%;
-    left: 36%;
-    width: 2px;
-    height: 100%;
-    background: #ffffff59;
-    transform: translate(-50%, -50%);
-  }
-  .spam-image {
-    width: 6%;
-  }
-  .submit-btn svg {
-    width: 25px !important;
-    height: 25px !important;
-  }
-  .submit-btn {
-    flex-shrink: 0 !important;
-    display: flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-    border-radius: 5px;
+    background: black;
   }
   .titlebg h2 {
     font-size: 60px !important;
@@ -564,7 +462,6 @@
   .skill-image svg {
     width: 55px;
     height: 55px;
-    margin-bottom: 10px;
   }
   .icon-opening svg {
     width: 60px;
@@ -590,5 +487,148 @@
     text-align: center;
     line-height: 1.3;
     margin-bottom: 20px;
+  }
+  section.social-wrapper {
+    flex-direction: column;
+  }
+  .sm-links {
+    width: 100%;
+  }
+  .every-where-caption {
+    width: 100%;
+  }
+  .sm-num p {
+    font-size: 15px;
+  }
+  .sm-num h3 {
+    font-size: 35px;
+  }
+  .sm-num {
+    gap: 20px;
+  }
+  .every-where-caption .journey {
+    font-size: 25px;
+    width: 100%;
+    margin-bottom: 30px;
+    letter-spacing: -1px;
+    word-spacing: 1px;
+  }
+  .sm-card {
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+  }
+  .footer-bg-image img {
+    width: 100%;
+    height: 100vh;
+    object-fit: fill;
+    /* display: none; */
+    /* background: beige; */
+  }
+  .content-wrapper-ft {
+    flex-direction: column;
+  }
+  .logo-container {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .links-container {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .vision-container,
+  .services-container,
+  .links-container {
+    width: 100%;
+  }
+  .logo-container > p {
+    font-size: 20px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .map-svg svg {
+    width: 35px;
+    height: 35px;
+  }
+  .map-hold a p {
+    font-size: 25px;
+  }
+  .maps_holder {
+    gap: 20px;
+  }
+  .vision-container h3,
+  .services-container h3,
+  .links-container h3 {
+    font-size: 30px;
+    margin-bottom: 25px;
+  }
+  .vision-container ul li a,
+  .services-container ul li a,
+  .links-container ul li a {
+    font-size: 20px;
+  }
+  .vision-container ul,
+  .services-container ul,
+  .links-container ul {
+    gap: 20px;
+  }
+  .footer {
+    position: relative;
+    min-height: 100svh;
+    overflow: hidden;
+  }
+
+  .footer-bg-image {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+  }
+
+  .footer-bg-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+  }
+
+  .footer-content {
+    position: relative;
+    z-index: 1;
+    padding-top: 35px;
+  }
+  .services-container {
+    margin-bottom: 40px;
+  }
+  .vision-container p {
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 25px;
+    letter-spacing: -1px;
+  }
+  .vision-container ul {
+    margin-bottom: 40px;
+  }
+  .privacy-section {
+    flex-direction: column;
+    gap: 25px;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    padding-top: 25px;
+    flex-direction: column-reverse;
+  }
+  .privacy-section a {
+    font-size: 16px;
+    gap: 10px;
+    text-transform: capitalize;
+  }
+  .privacy-section a svg {
+    width: 25px;
+    height: 25px;
+  }
+  .company-right h2 span {
+    padding-left: 13px;
+    letter-spacing: -1px;
   }
 }

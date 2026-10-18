@@ -1,3 +1,191 @@
+/* Second Desktop Screen */
+@media screen and (min-width: 1367px) and (max-width: 1600px) {
+  .privacy-section {
+    padding: 2vw 1vw 0 1vw;
+  }
+  .privacy-section a {
+    font-size: 1.2vw;
+  }
+  .every-where-caption .journey {
+    font-size: 1.5vw;
+  }
+  .company-right .currentlt-working:before,
+  .hobbies-wrapper h2:before,
+  .inner-heading h3:before,
+  .work-section h2:before,
+  .every-where-caption p:before {
+    top: 32%;
+  }
+  .right-hobby-caption h3 {
+    line-height: 1;
+  }
+  .hby-btn {
+    border-radius: 3px;
+    width: fit-content !important;
+    padding: 0.2vw 1vw 0.2vw 1vw;
+  }
+  .slide h2 {
+    letter-spacing: -9px;
+    word-spacing: -22px;
+    line-height: 1;
+  }
+  .hoby-items {
+    padding: 1vw 2vw 1vw 1.5vw;
+  }
+  .inner-hobbies svg {
+    width: 70px;
+    height: 70px;
+  }
+  .num-line {
+    height: 8vh;
+  }
+  .forward-btn svg {
+    width: 40px;
+    height: 40px;
+  }
+  .right-hobby-caption > p {
+    width: 90%;
+    line-height: 1;
+    /* padding: 0.2vw 1vw 0.2vw 1vw; */
+  }
+
+  .hobbies-wrapper > p,
+  .inner-heading p,
+  .work-section p {
+    font-size: 1.5vw;
+  }
+  .creative-box p {
+    font-size: 1.1vw;
+    font-weight: 400;
+  }
+  .icon-opening svg {
+    width: 50px;
+    height: 50px;
+  }
+  .opening-project:before {
+    left: -3px;
+    width: 2px;
+  }
+  .opening-project:first-child:before {
+    display: none !important;
+  }
+  .ongoing-project-caption p {
+    font-size: 1.2vw;
+    font-weight: 500;
+  }
+  .ongoing-project-caption h4 {
+    font-size: 2vw;
+  }
+  .bab-button.dark-btn a span {
+    font-size: 1.3vw;
+    font-weight: 400;
+  }
+  .company-right h2 {
+    line-height: 1;
+    font-size: 3.5vw;
+    width: 70%;
+  }
+  .company-right h2 span {
+    line-height: 1;
+    padding-left: 1vw;
+    letter-spacing: -4px;
+  }
+  .creative-logo-image svg {
+    width: 30px;
+    height: 30px;
+  }
+  .creative-logo-image {
+    width: fit-content;
+    padding: 5px;
+  }
+  .creative-logo {
+    margin-bottom: 5px;
+  }
+  .creative-logo h3 {
+    font-size: 1.1vw;
+  }
+  .creative-box:nth-child(2) h3 {
+    font-size: 1vw;
+    font-weight: 700;
+  }
+  .work-butn-wrapper a {
+    font-size: 1vw;
+    border-radius: 3px;
+    padding: 2px 10px 3px 10px;
+  }
+  .loweer-work-data h3 {
+    font-size: 1.3vw;
+    font-weight: 400;
+    margin-bottom: 2px;
+  }
+  .loweer-work-data {
+    padding-top: 5px;
+  }
+  .work-butn-wrapper {
+    gap: 10px;
+  }
+  .skill h3 {
+    line-height: 1;
+    font-size: 1.5vw;
+    margin-bottom: 7px;
+  }
+  .skill p {
+    font-size: 16px;
+    /* font-weight: 500; */
+    line-height: 1.2;
+  }
+  .skill-image svg {
+    width: 45px;
+    height: 45px;
+  }
+  .skill {
+    border-radius: 4px;
+    padding: 0.7vw 0.5vw 0.7vw 0.7vw;
+  }
+  .inner-heading {
+    margin-bottom: 1vw;
+  }
+  .expertse-box p {
+    font-size: 16px;
+    line-height: 1;
+  }
+  .expertse-box h3 {
+    line-height: 1;
+    font-size: 2vw;
+  }
+  .box-logo {
+    margin-bottom: 5px;
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+  }
+  .box-logo svg {
+    width: 40px;
+    height: 40px;
+  }
+  .about-right > h2 {
+    line-height: 1;
+  }
+  .expertse-box {
+    border-radius: 4px;
+  }
+  .left-section .dev-description {
+    font-size: 1.5vw;
+  }
+  .dev-vector {
+    top: 55%;
+  }
+  .left-section h1 {
+    line-height: 1;
+  }
+  .nav-links ul li a {
+    font-size: 1.3vw;
+  }
+  .left-grid-container.fueling-growth .opening-project:before {
+    left: -12%;
+  }
+}
+
 @media screen and (min-width: 1024px) and (max-width: 1366px) {
   .nav-links ul li a {
     font-size: 1.5vw;

@@ -1423,6 +1423,7 @@ footer#contact {
   display: flex;
   gap: 0.4vw;
   align-items: center;
+  transition: all 0.3s ease-in;
 }
 
 .vision-container p {
@@ -1484,4 +1485,9 @@ footer#contact {
 
 footer.footer {
   position: relative;
+}
+
+.privacy-section a:hover {
+  color: cyan;
+  transform: translateY(4px);
 }
