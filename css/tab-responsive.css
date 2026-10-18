@@ -26,7 +26,9 @@
   .hobbies-wrapper h2,
   .inner-heading h3,
   .me-about-wrapper h2,
-  .work-section h2 {
+  .work-section h2,
+  .every-where-caption p,
+  .hi-btn p {
     font-size: 20px;
     padding: 2px 13px 2px 30px;
   }
@@ -52,9 +54,10 @@
   .company-container,
   .hobbies-wrapper,
   .skill-wrapper,
-  .work-section {
-    padding: 60px 25px;
-    margin-bottom: 40px;
+  .work-section,
+  .social-wrapper {
+    padding: 60px 25px !important;
+    margin-bottom: 40px !important;
   }
   .about-grid-wrapper {
     grid-template-columns: repeat(4, 1fr);
@@ -83,35 +86,6 @@
   }
   .num-line {
     height: 7vh !important;
-  }
-  .footer {
-    padding: 50px 30px;
-  }
-  .footer-flex-container {
-    display: grid;
-    grid-row-gap: 60px;
-    margin-bottom: 20px;
-    padding-bottom: 36px;
-  }
-  .box-logo,
-  .opening-project:before {
-    display: none;
-  }
-  .foote-logo,
-  .footer-links,
-  .hoby-left,
-  .hoby-right,
-  .news-leter,
-  .services {
-    width: 100%;
-  }
-  .mail-box-container {
-    width: 100%;
-    border-radius: 4px;
-    display: none;
-  }
-  .privacy-caption {
-    gap: 59px;
   }
   .skills-container {
     grid-row-gap: 10px;
@@ -206,8 +180,8 @@
   }
   .dev-vector {
     position: absolute;
-    top: 42%;
-    left: 17%;
+    top: 45%;
+    left: 16%;
     width: 50%;
   }
   .nav-links ul {
@@ -251,9 +225,9 @@
     cursor: pointer;
   }
   .company-right h2 {
-    font-size: 30px;
+    font-size: 35px;
     width: 100%;
-    line-height: 1.1;
+    line-height: 1;
     margin-bottom: 6px;
   }
   .company-right h2 span {
@@ -295,14 +269,15 @@
     font-weight: 600;
   }
   .creative-box p {
-    font-size: 11px;
+    font-size: 15px;
   }
   .company-right p span {
     margin: 0 5px 0 7px;
     font-weight: 500;
   }
   .hobbies-wrapper > p {
-    width: 70%;
+    width: 65%;
+    text-align: start;
   }
   .hoby-items:before {
     width: 15px;
@@ -365,97 +340,75 @@
     margin: 0 58px;
     display: inline-block;
   }
-  .footer-image,
-  .footer-links ul li:before {
-    width: 80%;
+  .every-where-caption h2 {
+    font-size: 7vw;
+    line-height: 1;
   }
-  .foote-logo p {
-    font-size: 24px;
-    line-height: 1.2;
-    margin-bottom: 10px;
+  .every-where-caption .journey {
+    font-size: 2vw;
   }
-  .social-icon-container h4 {
-    font-size: 35px;
-    margin-bottom: 21px;
+  .sm-num p {
+    font-size: 2vw;
   }
-  .social-icon {
-    gap: 18px;
-    margin-bottom: 30px;
+  .sm-num h3 {
+    font-size: 4vw;
   }
-  .item-social-box svg {
-    width: 45px;
-    height: 45px;
+  .sm-num {
+    gap: 15px;
   }
-  .item-social-box {
-    padding: 5px;
-    border-radius: 6px;
+  .sm-card {
+    padding-top: 1vw;
+    padding-bottom: 1vw;
   }
-  .mail-box:before {
-    bottom: -2px;
+  .content-wrapper-ft {
+    gap: 5px;
+  }
+
+  .logo-container,
+  .links-container,
+  .services-container,
+  .vision-container {
     width: 100%;
+    min-width: 0;
   }
-  .mail-box,
-  .phone-box {
-    gap: 17px;
+
+  .footer-bg-image img {
+    width: 100%;
+    height: 100% !important;
+    object-fit: cover;
   }
-  .footer-links h3,
-  .news-leter h3,
-  .services h3 {
-    font-size: 30px;
-    margin-bottom: 20px;
-  }
-  .footer-links ul,
-  .services ul {
-    gap: 20px;
-  }
-  .footer-links ul li a,
-  .services ul li a {
-    font-size: 25px;
-    font-weight: 400;
-    gap: 10px;
-  }
-  .footer-links {
+
+  .privacy-section {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-left: 60px;
-  }
-  .footer-links ul li a svg,
-  .services ul li a svg {
-    width: 25px;
-    height: 25px;
-  }
-  .news-leter p {
-    font-size: 25px;
-    width: 100%;
-    line-height: 1.4;
-    font-weight: 300;
-  }
-  .input-field {
-    max-width: 365px;
-  }
-  .input-field input::placeholder {
-    font-size: 20px;
-    padding-left: 5px;
-  }
-  .spam-image {
-    width: 8%;
-  }
-  .no-spam p {
-    font-size: 19px;
-    width: 92%;
-  }
-  .copyright-caption svg {
-    width: 20px;
-    height: 20px;
-  }
-  .copy-right {
-    align-items: flex-start;
-    gap: 50px;
-    flex-direction: column-reverse;
-  }
-  .no-spam {
-    gap: 4px;
+    flex-wrap: wrap;
+    justify-content: space-between;
     align-items: center;
+    gap: 15px;
+  }
+  .footer {
+    position: relative;
+    min-height: 500px;
+    overflow: hidden;
+  }
+
+  .footer-bg-image {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+  }
+
+  .footer-bg-image img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .footer-content {
+    position: relative;
+    z-index: 1;
   }
 }
