@@ -1,4 +1,10 @@
 /* Second Desktop Screen */
+@media screen and (min-width: 1105px) and (max-width: 1400px) {
+  .dev-vector {
+    top: 57% !important;
+  }
+}
+
 @media screen and (min-width: 1367px) and (max-width: 1600px) {
   .privacy-section {
     padding: 2vw 1vw 0 1vw;
@@ -173,7 +179,7 @@
     font-size: 1.5vw;
   }
   .dev-vector {
-    top: 55%;
+    top: 53%;
   }
   .left-section h1 {
     line-height: 1;

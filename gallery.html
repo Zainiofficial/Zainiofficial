@@ -97,8 +97,43 @@
 </head>
 
 <body class="gallery-body">
-    <div class="content_holder">
 
+    <!-- loader -->
+    <div class="zl-loader" id="zlLoader" role="status" aria-live="polite" aria-label="Loading">
+        <div class="zl-wrap">
+            <div class="zl-logo">
+                <img class="zl-box zl-box--1" src="images/loader/box-1.webp" alt="" width="118" height="95"
+                    draggable="false" decoding="async">
+                <img class="zl-box zl-box--2" src="images/loader/box-2.webp" alt="" width="118" height="111"
+                    draggable="false" decoding="async">
+                <img class="zl-box zl-box--3" src="images/loader/box-3.webp" alt="" width="130" height="121"
+                    draggable="false" decoding="async">
+                <div class="zl-zclip">
+                    <img class="zl-zaini" src="images/loader/zaini.webp" alt="" width="449" height="286"
+                        draggable="false" decoding="async">
+                </div>
+                <div class="zl-oclip">
+                    <img class="zl-official" src="images/loader/official.webp" alt="" width="590" height="146"
+                        draggable="false" decoding="async">
+                </div>
+            </div>
+            <div class="zl-bar"><span></span></div>
+        </div>
+    </div>
+    <noscript>
+        <style>
+            .zl-loader {
+                display: none !important
+            }
+
+            html.zl-lock,
+            html.zl-lock body {
+                overflow: auto !important
+            }
+        </style>
+    </noscript>
+    <script src="js/loader.js"></script>
+    <div class="content_holder">
         <div class="gallery_container">
             <div class="gallery_title">
                 <h1>The Journey</h1>
