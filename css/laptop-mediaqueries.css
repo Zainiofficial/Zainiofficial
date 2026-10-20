@@ -248,7 +248,7 @@
   }
   .hobbies-wrapper > p,
   .inner-heading p,
-  .work-section p {
+  .work-section > p {
     font-size: 2vw;
     line-height: 1;
   }
@@ -262,8 +262,7 @@
     font-size: 1.4vw;
     line-height: 1.2;
   }
-  .skills-container,
-  .work-grid {
+  .skills-container {
     grid-template-columns: repeat(3, 1fr);
   }
   .skill {
@@ -289,8 +288,8 @@
     padding: 0.3vw 1vw 0.6vw 1vw;
   }
   .work-section p {
-    width: 70%;
-    line-height: 1;
+    /* width: 70%; */
+    /* line-height: 1; */
   }
   .bab-button a {
     border-radius: 4px;
