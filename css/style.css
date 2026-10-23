@@ -73,6 +73,10 @@ body {
   overflow-x: hidden;
   font-family: Ubuntu;
 }
+p {
+  font-family: "Outfit" !important;
+  font-weight: 400;
+}
 .header {
   padding: 0.5vw 3vw 0.3vw;
   display: flex;

@@ -1,71 +1,216 @@
 @font-face {
-    font-family: 'Ubuntu';
-    src: url('../fonts/Ubuntu-Bold.woff2') format('woff2'),
-        url('../fonts/Ubuntu-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Ubuntu";
+  src:
+    url("../fonts/Ubuntu-Bold.woff2") format("woff2"),
+    url("../fonts/Ubuntu-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Ubuntu';
-    src: url('../fonts/Ubuntu-Italic.woff2') format('woff2'),
-        url('../fonts/Ubuntu-Italic.woff') format('woff');
-    font-weight: normal;
-    font-style: italic;
-    font-display: swap;
+  font-family: "Ubuntu";
+  src:
+    url("../fonts/Ubuntu-Italic.woff2") format("woff2"),
+    url("../fonts/Ubuntu-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Ubuntu';
-    src: url('../fonts/Ubuntu-Light.woff2') format('woff2'),
-        url('../fonts/Ubuntu-Light.woff') format('woff');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Ubuntu";
+  src:
+    url("../fonts/Ubuntu-Light.woff2") format("woff2"),
+    url("../fonts/Ubuntu-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Ubuntu';
-    src: url('../fonts/Ubuntu-BoldItalic.woff2') format('woff2'),
-        url('../fonts/Ubuntu-BoldItalic.woff') format('woff');
-    font-weight: bold;
-    font-style: italic;
-    font-display: swap;
+  font-family: "Ubuntu";
+  src:
+    url("../fonts/Ubuntu-BoldItalic.woff2") format("woff2"),
+    url("../fonts/Ubuntu-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Ubuntu';
-    src: url('../fonts/Ubuntu-MediumItalic.woff2') format('woff2'),
-        url('../fonts/Ubuntu-MediumItalic.woff') format('woff');
-    font-weight: 500;
-    font-style: italic;
-    font-display: swap;
+  font-family: "Ubuntu";
+  src:
+    url("../fonts/Ubuntu-MediumItalic.woff2") format("woff2"),
+    url("../fonts/Ubuntu-MediumItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Ubuntu';
-    src: url('../fonts/Ubuntu-LightItalic.woff2') format('woff2'),
-        url('../fonts/Ubuntu-LightItalic.woff') format('woff');
-    font-weight: 300;
-    font-style: italic;
-    font-display: swap;
+  font-family: "Ubuntu";
+  src:
+    url("../fonts/Ubuntu-LightItalic.woff2") format("woff2"),
+    url("../fonts/Ubuntu-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Ubuntu';
-    src: url('../fonts/Ubuntu-Regular.woff2') format('woff2'),
-        url('../fonts/Ubuntu-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Ubuntu";
+  src:
+    url("../fonts/Ubuntu-Regular.woff2") format("woff2"),
+    url("../fonts/Ubuntu-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Ubuntu';
-    src: url('../fonts/Ubuntu-Medium.woff2') format('woff2'),
-        url('../fonts/Ubuntu-Medium.woff') format('woff');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Ubuntu";
+  src:
+    url("../fonts/Ubuntu-Medium.woff2") format("woff2"),
+    url("../fonts/Ubuntu-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* OutFit Google Fonts */
+
+@font-face {
+  font-family: "Outfit";
+  src: url("../fonts/outfit/Outfit-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Outfit";
+  src: url("../fonts/outfit/Outfit-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Outfit";
+  src: url("../fonts/outfit/Outfit-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Outfit";
+  src: url("../fonts/outfit/Outfit-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Outfit";
+  src: url("../fonts/outfit/Outfit-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Outfit";
+  src: url("../fonts/outfit/Outfit-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Outfit";
+  src: url("../fonts/outfit/Outfit-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Outfit";
+  src: url("../fonts/outfit/Outfit-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Outfit";
+  src: url("../fonts/outfit/Outfit-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Bricolage fonts for headings */
+
+@font-face {
+  font-family: "bricolage";
+  src: url("../fonts/bricolage/BricolageGrotesque-ExtraLight.ttf")
+    format("truetype");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "bricolage";
+  src: url("../fonts/bricolage/BricolageGrotesque-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "bricolage";
+  src: url("../fonts/bricolage/BricolageGrotesque-Regular.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "bricolage";
+  src: url("../fonts/bricolage/BricolageGrotesque-Medium.ttf")
+    format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "bricolage";
+  src: url("../fonts/bricolage/BricolageGrotesque-SemiBold.ttf")
+    format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "bricolage";
+  src: url("../fonts/bricolage/BricolageGrotesque-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "bricolage";
+  src: url("../fonts/bricolage/BricolageGrotesque-ExtraBold.ttf")
+    format("truetype");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
 }
