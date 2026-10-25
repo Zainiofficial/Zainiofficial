@@ -71,7 +71,7 @@ html {
 }
 body {
   overflow-x: hidden;
-  font-family: Ubuntu;
+  font-family: "Outfit";
 }
 p {
   font-family: "Outfit" !important;
@@ -1651,4 +1651,14 @@ footer.footer {
     margin-left: 0;
     padding: 18px;
   }
+}
+
+.hi-btn p,
+.me-about-wrapper h2,
+.inner-heading h3,
+.company-right .currentlt-working,
+.hobbies-wrapper h2,
+.work-section h2,
+.every-where-caption p {
+  font-family: "bricolage" !important;
 }
