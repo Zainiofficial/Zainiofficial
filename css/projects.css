@@ -197,3 +197,183 @@ section.project-grid-container {
   justify-content: center;
   padding-left: 5vw;
 }
+
+/* PROCESS SECTION how i work */
+
+.process-section {
+  width: 100%;
+  background: #008b8b;
+  color: #ffffff;
+  padding: 90px 6.7%;
+}
+
+.process-container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/* Heading */
+
+.process-heading {
+  margin-bottom: 62px;
+}
+
+.process-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  padding: 4px 10px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 4px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.label-dot {
+  width: 8px;
+  height: 8px;
+  background: #ffffff;
+  border-radius: 50%;
+}
+
+.process-heading h2 {
+  margin: 18px 0 0;
+  font-size: clamp(32px, 3vw, 48px);
+  line-height: 1.05;
+  letter-spacing: -1.5px;
+  font-weight: 750;
+}
+
+/* Timeline */
+
+.process-timeline {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  position: relative;
+}
+
+.process-timeline::before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.35);
+}
+
+.process-step {
+  min-width: 0;
+  position: relative;
+  padding-right: 30px;
+}
+
+.step-marker {
+  height: 36px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.step-dot {
+  position: relative;
+  z-index: 1;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #ffffff;
+  transform: translateY(0);
+}
+
+.step-number {
+  position: relative;
+  top: 20px;
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 12px;
+}
+
+.process-step h3 {
+  margin: 0 0 12px;
+  font-size: 21px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+.process-step p {
+  max-width: 240px;
+  margin: 0;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 13px;
+  line-height: 1.55;
+}
+
+/* Tablet */
+
+@media (max-width: 900px) {
+  .process-section {
+    padding: 70px 5%;
+  }
+
+  .process-heading {
+    margin-bottom: 50px;
+  }
+
+  .process-timeline {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 40px 25px;
+  }
+
+  .process-timeline::before {
+    display: none;
+  }
+
+  .process-step {
+    border-top: 1px solid rgba(255, 255, 255, 0.35);
+    padding: 16px 12px 0 0;
+  }
+
+  .step-marker {
+    height: 26px;
+  }
+
+  .step-number {
+    top: -8px;
+  }
+}
+
+/* Mobile */
+
+@media (max-width: 520px) {
+  .process-section {
+    padding: 55px 24px;
+  }
+
+  .process-heading {
+    margin-bottom: 38px;
+  }
+
+  .process-heading h2 {
+    font-size: 34px;
+    letter-spacing: -1px;
+  }
+
+  .process-timeline {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+
+  .process-step {
+    padding: 16px 0 0;
+  }
+
+  .process-step h3 {
+    font-size: 20px;
+  }
+
+  .process-step p {
+    max-width: 320px;
+    font-size: 14px;
+  }
+}
