@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1900" height="520" viewBox="0 0 1900 520">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a9692"/>
+      <stop offset=".55" stop-color="#008b8b"/>
+      <stop offset="1" stop-color="#007f7f"/>
+    </linearGradient>
+    <radialGradient id="glow" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#ffffff" stop-opacity=".10"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="w1" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#5cc2bd" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#7fd3cf" stop-opacity=".35"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1900" height="520" fill="url(#g)"/>
+  <ellipse cx="420" cy="140" rx="620" ry="320" fill="url(#glow)"/>
+  <ellipse cx="1350" cy="260" rx="420" ry="260" fill="url(#glow)"/>
+
+  <!-- right waves -->
+  <path d="M1900 150C1790 190 1720 270 1660 360 1615 430 1560 480 1500 520H1900Z" fill="#ffffff" fill-opacity=".08"/>
+  <path d="M1900 250C1820 280 1770 340 1730 410 1700 460 1660 495 1610 520H1900Z" fill="url(#w1)"/>
+
+  <!-- left bottom blob -->
+  <path d="M0 430C45 440 85 470 115 520H0Z" fill="#ffffff" fill-opacity=".14"/>
+
+  <!-- dot grid -->
+  <g fill="#ffffff" fill-opacity=".55">
+    <circle cx="1061" cy="349" r="3"/><circle cx="1092" cy="349" r="3"/><circle cx="1123" cy="349" r="3"/><circle cx="1154" cy="349" r="3"/>
+    <circle cx="1061" cy="378" r="3"/><circle cx="1092" cy="378" r="3"/><circle cx="1123" cy="378" r="3"/><circle cx="1154" cy="378" r="3"/>
+    <circle cx="1061" cy="407" r="3"/><circle cx="1092" cy="407" r="3"/><circle cx="1123" cy="407" r="3"/><circle cx="1154" cy="407" r="3"/>
+    <circle cx="1061" cy="436" r="3"/><circle cx="1092" cy="436" r="3"/><circle cx="1123" cy="436" r="3"/><circle cx="1154" cy="436" r="3"/>
+  </g>
+
+  <!-- dotted flight path -->
+  <path d="M1249 416C1344 382 1359 199 1420 191 1466 185 1474 291 1512 288 1573 283 1600 216 1618 190"
+        fill="none" stroke="#ffffff" stroke-opacity=".85" stroke-width="3.5" stroke-linecap="round" stroke-dasharray="0.1 11"/>
+
+  <!-- paper plane (outline) -->
+  <g transform="translate(1585 105)" stroke="#ffffff" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M0 42 118 0 78 96 52 62Z" fill="#ffffff" fill-opacity=".18"/>
+    <path d="M0 42 52 62 118 0" fill="none"/>
+    <path d="M52 62 56 92 72 74" fill="#ffffff" fill-opacity=".35"/>
+  </g>
+</svg>
