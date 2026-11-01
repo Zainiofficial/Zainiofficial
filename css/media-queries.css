@@ -129,7 +129,7 @@
   .company-right h2,
   .hobbies-wrapper > p,
   .work-btn-container {
-    width: 100% !important;
+    width: fit-content !important;
   }
   .left-section .dev-description {
     font-size: 20px;
@@ -630,5 +630,201 @@
   .company-right h2 span {
     padding-left: 13px;
     letter-spacing: -1px;
+  }
+  /* projects page responsivenss  */
+  .project-content-holder {
+    padding-top: 18.5vw;
+  }
+  .project-caption-banner {
+    padding: 23% 5vw 0 5vw;
+    justify-content: flex-start;
+  }
+  section.project-banner h2 {
+    font-size: 7vw;
+    width: 100%;
+    margin-bottom: 1.5vw;
+  }
+  section.project-banner p {
+    font-size: 5vw;
+    width: 100%;
+    font-size: 4.5vw;
+    margin: 0;
+  }
+  .project-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .filter-buttons button {
+    font-size: 4vw;
+    padding: 5px 10px;
+  }
+  .filter-buttons button.active {
+    padding: 5px 10px;
+  }
+  .filter-buttons {
+    padding: 5px 6px;
+    margin-bottom: 5vw;
+    border-radius: 5px;
+  }
+  section.project-banner {
+    margin-bottom: 10vw;
+  }
+  .project-caption h2 {
+    font-size: 5vw;
+  }
+  .project-caption p {
+    font-size: 4vw;
+  }
+  .project-caption {
+    padding: 10px 5px 10px 10px;
+  }
+  .process-label {
+    font-size: 4.5vw;
+
+    padding: 5px 10px 5px 35px;
+  }
+  .process-label:before {
+    top: 31%;
+  }
+  .process-section {
+    padding: 55px 24px;
+    margin-bottom: 10vw;
+  }
+
+  .process-heading {
+    margin-bottom: 38px;
+  }
+
+  .process-heading h2 {
+    font-size: 11vw;
+    width: 100%;
+  }
+
+  .process-timeline {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+
+  .process-step {
+    padding: 16px 0 0;
+  }
+
+  .process-step h3 {
+    font-size: 5vw !important;
+    padding: 5px 10px !important;
+  }
+
+  .process-step p {
+    font-size: 4vw;
+    width: 100%;
+  }
+  .project-caption-banner.contact-us h2 {
+    width: 100%;
+    font-size: 10vw;
+    line-height: 1;
+    margin-bottom: 4vw;
+  }
+  .project-caption-banner.contact-us p {
+    font-size: 4vw;
+    width: 100%;
+  }
+  .ct-card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 7px;
+  }
+  .ct-col {
+    padding: 20px 15px;
+  }
+  .ct-badge {
+    font-size: 5vw;
+    padding: 3px 10px 5px 10px;
+    gap: 9px;
+    margin-bottom: 2vw;
+  }
+  .ct-heading {
+    font-size: 9vw;
+    margin-bottom: 2vw;
+  }
+  .ct-text {
+    font-size: 5vw;
+    margin-bottom: 4vw;
+  }
+  .ct-row {
+    gap: 10px;
+  }
+  .ct-input input {
+    padding: 4px 10px 3px 34px;
+    height: 33px;
+  }
+  .ct-input textarea {
+    padding: 18px 10px 3px 34px;
+  }
+  .ct-input svg {
+    width: 20px;
+    height: 20px;
+    left: 8px;
+  }
+  .ct-input {
+    border-radius: 5px;
+  }
+  .bab-button button span {
+    font-size: 5vw;
+    padding: 0px 10px 0px 8px !important;
+  }
+  .ct-note {
+    font-size: 3vw;
+  }
+  .ct-actions {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5vw;
+  }
+  .ct-line {
+    gap: 2vw;
+  }
+  .ct-info-col .ct-text {
+    width: 100%;
+
+    margin-bottom: 5vw;
+  }
+  .ct-list {
+    gap: 15px;
+  }
+  .ct-item {
+    border-radius: 5px;
+    align-items: center;
+    gap: 3vw;
+  }
+  .ct-icon {
+    border-radius: 4px;
+  }
+  .ct-info h4 {
+    font-size: 4vw;
+    margin-bottom: 2vw;
+  }
+  .ct-info p {
+    font-size: 3vw;
+    margin: 0;
+  }
+  .talk-description p {
+    font-size: 5vw;
+    padding: 0px 10px 0px 35px;
+    margin-bottom: 4vw;
+  }
+  .talk-description {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30vw;
+  }
+  .talk-description h2 {
+    font-size: 12vw;
+    line-height: 1;
+    margin-bottom: 2vw;
+  }
+  .talk-description h3 {
+    font-size: 5vw;
+    width: 100%;
+    margin-bottom: 5vw;
   }
 }

@@ -712,6 +712,7 @@ body.elementor-editor-active .titlebg {
 }
 .bab-button {
   display: flex;
+  width: fit-content;
 }
 .bab-button a {
   background: #f6f4f4;

@@ -179,7 +179,10 @@
 
         <section class="project-banner">
             <div class="project-banner-bg">
-                <img src="images/contact.webp" alt="banner images, Zaini official contact - us">
+                <picture>
+                    <source media="(max-width: 767px)" srcset="images/contact-banner-mobile.webp">
+                    <img src="images/contact.webp" alt="">
+                </picture>
             </div>
             <div class="project-caption-banner contact-us">
                 <h2>
@@ -193,9 +196,8 @@
         </section>
 
 
-        <section class="ct-section">
+        <section class="ct-section" id="contact">
             <div class="ct-card">
-
                 <!-- LEFT : FORM -->
                 <div class="ct-col ct-form-col">
                     <span class="ct-badge"><i></i>Send Message</span>
@@ -328,6 +330,34 @@
             </div>
         </section>
 
+        <section class="talk-section">
+            <div class="talk-bg">
+                <picture>
+                    <source media="(max-width: 767px)" srcset="images/cta-mbl.webp">
+                    <img src="images/cta-background.svg" alt="">
+                </picture>
+            </div>
+            <div class="talk-description">
+                <p>Let’s Talk</p>
+                <h2>Let’s start a conversation</h2>
+                <h3>Whether you have a project, a business idea, or just want to connect - i’m always open to new
+                    opportunities.</h3>
+                <div class="bab-button arrow-btn dark-btn same-width cta-btn">
+                    <a href="#contact" data-scroll-to>
+                        <div class="icon">
+                            <svg width=27 height=28 viewBox="0 0 27 28" fill=none xmlns=http://www.w3.org/2000/svg>
+                                <path
+                                    d="M6.54276 21.1182C6.15546 20.7309 6.15572 20.1033 6.54276 19.7163L17.4089 8.85013L8.65276 8.87116C8.10508 8.87116 7.66079 8.42687 7.66079 7.87919C7.66104 7.33125 8.10508 6.88721 8.65276 6.88721L19.7856 6.88721C19.8501 6.8877 19.9144 6.89381 19.9782 6.90482L20.0063 6.93294L20.1467 6.97499L20.1887 7.01704L20.1885 7.0168C20.2298 7.03416 20.2684 7.05665 20.3041 7.08355C20.355 7.12365 20.4007 7.16937 20.4408 7.22023C20.4929 7.26155 20.5398 7.30849 20.5809 7.36033C20.6061 7.39529 20.6274 7.4327 20.6442 7.47255L20.6863 7.51461L20.7284 7.65495L20.7565 7.68307L20.7775 7.87916L20.7738 19.0083C20.7738 19.5559 20.3298 20 19.7818 20.0002C19.2341 20.0002 18.7899 19.5559 18.7899 19.0083L18.7933 10.2697L7.94469 21.1183C7.75886 21.3042 7.50678 21.4086 7.2437 21.4086C6.98085 21.4088 6.72853 21.3042 6.54271 21.1183L6.54276 21.1182Z" />
+                            </svg>
+                        </div>
+                        <span>
+                            let's connect
+                        </span>
+                    </a>
+                </div>
+            </div>
+
+        </section>
 
         <footer class="footer">
             <div class="footer-bg-image">
