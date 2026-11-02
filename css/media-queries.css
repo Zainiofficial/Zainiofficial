@@ -847,4 +847,135 @@
     height: 1.05px;
     background: rgba(255, 255, 255, 0.35);
   }
+  .project-image .bab-button a span {
+    white-space: nowrap;
+  }
+  /* new section css added */
+  .sp-section {
+    padding: 0 5vw;
+    position: relative;
+  }
+  .sp-wrap {
+    display: flex;
+    flex-direction: column-reverse;
+    padding-top: 27vw;
+  }
+
+  .sp-badge {
+    font-size: 4.5vw;
+    padding: 1vw 3vw;
+    gap: 2vw;
+    border-radius: 1.3vw;
+    margin-bottom: 2vw;
+  }
+  .sp-badge i {
+    width: 1.5vw;
+    height: 1.5vw;
+  }
+  .sp-title {
+    /* font-size: 7.4vw; */
+    /* margin: 3.5vw 0 6vw; */
+    /* position: absolute; */
+    /* top: 0; */
+    /* left: 0; */
+    /* z-index: 999; */
+    /* padding: 0 5vw; */
+    font-size: 6vw;
+    width: 100%;
+  }
+
+  .sp-stage {
+    min-height: 108vw;
+    border-radius: 7px;
+    /* margin: 0 0 6vw; */
+    width: 100%;
+  }
+
+  /* list : 2 compact columns, no numbers */
+  .sp-list {
+    /* grid-template-columns: 1fr 1fr; */
+    gap: 2.6vw;
+  }
+  .sp-item {
+    padding: 2.8vw 3vw;
+    gap: 2.6vw;
+    border-radius: 3vw;
+  }
+  .sp-num {
+    display: none;
+  }
+  .sp-ic {
+    width: 9vw;
+    height: 9vw;
+    border-radius: 2.4vw;
+  }
+  .sp-ic svg {
+    width: 4.8vw;
+    height: 4.8vw;
+  }
+  .sp-name {
+    font-size: 3.5vw;
+  }
+
+  /* card */
+  .sp-ring.r1 {
+    width: 80vw;
+    height: 80vw;
+    right: -32vw;
+    top: -32vw;
+  }
+  .sp-ring.r2 {
+    width: 60vw;
+    height: 60vw;
+    left: -26vw;
+    bottom: -30vw;
+  }
+  .sp-panel {
+    padding: 7vw;
+  }
+  .sp-panel-ic {
+    width: 17vw;
+    height: 17vw;
+    border-radius: 4.5vw;
+  }
+  .sp-panel-ic svg {
+    width: 8.5vw;
+    height: 8.5vw;
+  }
+  .sp-cat {
+    font-size: 3.3vw;
+    padding: 1.8vw 3.8vw;
+  }
+  .sp-panel-body h3 {
+    font-size: 7.4vw;
+    margin: 0 0 3vw;
+  }
+  .sp-panel-body p {
+    font-size: 4vw;
+  }
+  .sp-count {
+    font-size: 3.6vw;
+  }
+  .sp-count strong {
+    font-size: 5.2vw;
+  }
+  .sp-big {
+    font-size: 55vw;
+    right: 5vw;
+    bottom: -10vw;
+  }
+  .sp-left {
+    width: 100%;
+  }
+  .tech-descriptioon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    padding: 0 5vw;
+    width: 100%;
+  }
+  .sp-radio {
+    display: none;
+  }
 }

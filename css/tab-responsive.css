@@ -660,6 +660,123 @@
   .process-step p {
     font-size: 2.5vw;
   }
+  .sp-section {
+    padding: 9vw 0;
+  }
+  .sp-wrap {
+    grid-template-columns: 1fr;
+    gap: 0;
+    padding: 0 5.2vw;
+  }
+
+  /* heading -> card -> list order */
+  .sp-left {
+    display: contents;
+  }
+  .sp-badge {
+    order: 1;
+    justify-self: start;
+    font-size: 1.9vw;
+    padding: 0.5vw 1.6vw;
+    gap: 1vw;
+  }
+  .sp-badge i {
+    width: 0.8vw;
+    height: 0.8vw;
+  }
+  .sp-title {
+    order: 2;
+    font-size: 5.2vw;
+    margin: 2vw 0 4vw;
+    max-width: none;
+  }
+  .sp-stage {
+    order: 3;
+    min-height: 62vw;
+    border-radius: 3vw;
+    margin: 0 0 3.5vw;
+  }
+  .sp-list {
+    order: 4;
+    gap: 1.3vw 1.8vw;
+  }
+
+  /* list */
+  .sp-item {
+    padding: 1.6vw 2vw;
+    gap: 1.8vw;
+    border-radius: 1.6vw;
+  }
+  .sp-num {
+    font-size: 1.7vw;
+    min-width: 2.6vw;
+  }
+  .sp-ic {
+    width: 5vw;
+    height: 5vw;
+    border-radius: 1.3vw;
+  }
+  .sp-ic svg {
+    width: 2.6vw;
+    height: 2.6vw;
+  }
+  .sp-name {
+    font-size: 2.1vw;
+  }
+  .sp-section .sp-item {
+    transform: none !important;
+  } /* no slide on tab/mobile */
+
+  /* card */
+  .sp-ring.r1 {
+    width: 55vw;
+    height: 55vw;
+    right: -21vw;
+    top: -21vw;
+  }
+  .sp-ring.r2 {
+    width: 39vw;
+    height: 39vw;
+    left: -16vw;
+    bottom: -20vw;
+  }
+  .sp-panel {
+    padding: 5.5vw;
+  }
+  .sp-panel-ic {
+    width: 11vw;
+    height: 11vw;
+    border-radius: 2.8vw;
+  }
+  .sp-panel-ic svg {
+    width: 5.5vw;
+    height: 5.5vw;
+  }
+  .sp-cat {
+    font-size: 1.8vw;
+    padding: 1vw 2vw;
+  }
+  .sp-panel-body {
+    max-width: none;
+  }
+  .sp-panel-body h3 {
+    font-size: 4.8vw;
+    margin: 0 0 1.8vw;
+  }
+  .sp-panel-body p {
+    font-size: 2.3vw;
+  }
+  .sp-count {
+    font-size: 1.9vw;
+  }
+  .sp-count strong {
+    font-size: 2.8vw;
+  }
+  .sp-big {
+    font-size: 30vw;
+    right: 3.5vw;
+    bottom: -5vw;
+  }
 }
 
 @media only screen and (min-width: 915px) and (max-width: 1024px) {
