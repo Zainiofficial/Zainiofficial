@@ -497,6 +497,169 @@
   .bab-button a {
     border-radius: 4px;
   }
+  .project-content-holder {
+    padding-top: 8vw;
+  }
+  .project-caption-banner.contact-us h2 {
+    font-size: 5.5vw;
+    line-height: 1;
+    margin-bottom: 2vw;
+  }
+  section.project-banner p {
+    font-size: 2vw;
+    width: 55% !important;
+  }
+  .ct-col {
+    padding: 3vw 3vw;
+  }
+  .ct-card {
+    display: flex;
+    flex-direction: column;
+  }
+  .ct-badge {
+    font-size: 2.5vw;
+    border-radius: 3px;
+    margin-bottom: 2vw;
+    padding: 4px 10px 4px 15px;
+    gap: 10px;
+  }
+  .ct-text {
+    font-size: 3vw;
+    margin-bottom: 4vw;
+  }
+  .ct-heading {
+    font-size: 6vw;
+  }
+  .ct-input input,
+  .ct-input textarea {
+    font-size: 2.5vw;
+    padding-left: 60px;
+  }
+  .ct-input svg {
+    width: 30px;
+    height: 30px;
+  }
+  .bab-button button span {
+    font-size: 3vw;
+  }
+  .ct-note {
+    font-size: 3vw;
+  }
+  .ct-info-col .ct-text {
+    width: 80%;
+    margin-bottom: 3vw;
+  }
+  .ct-info h4 {
+    font-size: 3vw;
+  }
+  .ct-info p {
+    font-size: 2.8vw;
+    font-weight: 300;
+  }
+  .ct-info a {
+    font-size: 2.5vw;
+    font-weight: 400;
+  }
+  .talk-description p {
+    font-size: 2.5vw;
+    padding: 0 10px 0 35px;
+  }
+  .talk-description p:before {
+    top: 28%;
+  }
+  .talk-description h2 {
+    font-size: 4.5vw;
+  }
+  .talk-description h3 {
+    font-size: 2vw;
+    width: 55%;
+  }
+  .talk-description {
+    padding: 4vw 0 2vw 5vw;
+  }
+  .filter-buttons {
+    font-size: 1vw;
+    padding: 8px 10px;
+    border-radius: 5px;
+  }
+  .filter-buttons button {
+    font-size: 3vw;
+    border-radius: 4px !important;
+  }
+  .filter-buttons button.active {
+    border-radius: 5px !important;
+    padding: 2px 15px;
+  }
+  .filter-buttons button {
+    border-radius: 5px !important;
+    padding: 2px 15px;
+  }
+  .project-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .project-caption h2 {
+    font-size: 3.3vw;
+  }
+  .project-caption {
+    padding: 1vw 1.5vw;
+    /* height: fit-content !important; */
+  }
+  .project-caption p {
+    font-size: 2.5vw;
+  }
+  .process-label {
+    font-size: 3vw;
+    padding: 4px 10px 4px 30px;
+    margin-bottom: 1vw;
+  }
+  .process-heading h2 {
+    width: 90%;
+    font-size: 8vw;
+    line-height: 1.3;
+  }
+  article.process-step h3 {
+    font-size: 4vw;
+    border-radius: 4px;
+    padding: 0.3vw 1vw;
+    line-height: 1;
+  }
+  .step-marker {
+    align-items: self-start;
+  }
+  .process-section {
+    padding: 70px 5%;
+    margin-bottom: 10vw;
+  }
+
+  .process-heading {
+    margin-bottom: 50px;
+  }
+
+  .process-timeline {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px 25px;
+  }
+
+  .process-timeline::before {
+    display: none;
+  }
+
+  .process-step {
+    border-top: 1px solid rgba(255, 255, 255, 0.35);
+    padding: 16px 12px 0 0;
+  }
+
+  .step-marker {
+    height: 26px;
+  }
+
+  .step-number {
+    top: -2px;
+    font-size: 2vw;
+  }
+  .process-step p {
+    font-size: 2.5vw;
+  }
 }
 
 @media only screen and (min-width: 915px) and (max-width: 1024px) {

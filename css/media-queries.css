@@ -706,6 +706,8 @@
 
   .process-step {
     padding: 16px 0 0;
+    position: relative;
+    padding-bottom: 4vw;
   }
 
   .process-step h3 {
@@ -735,6 +737,9 @@
   }
   .ct-col {
     padding: 20px 15px;
+  }
+  .ct-info-col {
+    border-left: none;
   }
   .ct-badge {
     font-size: 5vw;
@@ -826,5 +831,20 @@
     font-size: 5vw;
     width: 100%;
     margin-bottom: 5vw;
+  }
+  .bab-button.dark-btn a span {
+    padding: 0 11px 0 0;
+  }
+  .step-marker {
+    margin-bottom: 3vw;
+  }
+  .process-step:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1.05px;
+    background: rgba(255, 255, 255, 0.35);
   }
 }

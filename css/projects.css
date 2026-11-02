@@ -305,41 +305,6 @@ section.project-grid-container {
   font-size: 1.1vw;
 }
 
-/* Tablet */
-
-@media (max-width: 900px) {
-  .process-section {
-    padding: 70px 5%;
-    margin-bottom: 10vw;
-  }
-
-  .process-heading {
-    margin-bottom: 50px;
-  }
-
-  .process-timeline {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 40px 25px;
-  }
-
-  .process-timeline::before {
-    display: none;
-  }
-
-  .process-step {
-    border-top: 1px solid rgba(255, 255, 255, 0.35);
-    padding: 16px 12px 0 0;
-  }
-
-  .step-marker {
-    height: 26px;
-  }
-
-  .step-number {
-    top: -8px;
-  }
-}
-
 .filter-buttons button:hover {
   color: #fff;
   background: var(--cyan);
