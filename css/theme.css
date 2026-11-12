@@ -1,0 +1,512 @@
+/* ============================================================
+   theme.css — Light / Dark mode for Zaini Official
+   • Toggle button styles (.theme-toggle)
+   • Dark palette applied when <html data-theme="dark">
+   Light mode = original design, untouched.
+   ============================================================ */
+
+/* ---------- Toggle button ---------- */
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 1.2vw;
+  margin-left: 2.5vw;
+}
+.header .nav-links {
+  margin-left: auto;
+}
+.theme-toggle {
+  position: relative;
+  width: 58px;
+  height: 30px;
+  flex: none;
+  border: 1.5px solid rgba(255, 255, 255, 0.55);
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.18);
+  cursor: pointer;
+  padding: 0;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+  transition: background 0.35s ease, border-color 0.35s ease, box-shadow 0.35s ease;
+}
+.theme-toggle:focus-visible {
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.35);
+}
+.theme-toggle__knob {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 21px;
+  height: 21px;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.35);
+  transition: transform 0.45s cubic-bezier(0.34, 1.56, 0.64, 1), background 0.35s ease;
+}
+.theme-toggle__icon {
+  position: absolute;
+  top: 50%;
+  width: 15px;
+  height: 15px;
+  transform: translateY(-50%);
+  transition: opacity 0.3s ease, transform 0.45s ease;
+  pointer-events: none;
+}
+.theme-toggle__icon--sun {
+  left: 8px;
+  color: #ffd166;
+  opacity: 0;
+  transform: translateY(-50%) rotate(-90deg) scale(0.6);
+}
+.theme-toggle__icon--moon {
+  right: 8px;
+  color: #fff;
+  opacity: 1;
+}
+.theme-toggle svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.theme-toggle__icon--sun svg circle {
+  fill: currentColor;
+  stroke: none;
+}
+
+/* dark state of the switch */
+html[data-theme="dark"] .theme-toggle {
+  background: #0b1212;
+  border-color: rgba(25, 181, 181, 0.7);
+}
+html[data-theme="dark"] .theme-toggle__knob {
+  transform: translateX(28px);
+  background: #19b5b5;
+}
+html[data-theme="dark"] .theme-toggle__icon--sun {
+  opacity: 1;
+  transform: translateY(-50%) rotate(0) scale(1);
+}
+html[data-theme="dark"] .theme-toggle__icon--moon {
+  opacity: 0;
+  transform: translateY(-50%) rotate(90deg) scale(0.6);
+}
+
+/* floating toggle for pages without a header (gallery, 404) */
+.theme-toggle--floating {
+  position: fixed;
+  top: 18px;
+  right: 18px;
+  z-index: 99999;
+  border-color: rgba(0, 139, 139, 0.8);
+  background: rgba(0, 139, 139, 0.9);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+}
+
+/* smooth cross-fade while switching */
+html.theme-switching,
+html.theme-switching *,
+html.theme-switching *::before,
+html.theme-switching *::after {
+  transition: background-color 0.45s ease, color 0.45s ease, border-color 0.45s ease,
+    fill 0.45s ease, stroke 0.45s ease, box-shadow 0.45s ease !important;
+}
+
+@media only screen and (max-width: 767px) {
+  .header-actions {
+    gap: 14px;
+    margin-left: 0;
+  }
+  .theme-toggle {
+    width: 52px;
+    height: 28px;
+  }
+  .theme-toggle__knob {
+    width: 19px;
+    height: 19px;
+  }
+  html[data-theme="dark"] .theme-toggle__knob {
+    transform: translateX(24px);
+  }
+  .header .nav-links {
+    margin-left: 0;
+  }
+}
+
+/* ============================================================
+   DARK MODE
+   ============================================================ */
+html[data-theme="dark"] {
+  color-scheme: dark;
+
+  /* palette */
+  --dk-bg: #0b1212;
+  --dk-bg-2: #0f1919;
+  --dk-surface: #132020;
+  --dk-surface-2: #192929;
+  --dk-border: rgba(255, 255, 255, 0.1);
+  --dk-border-2: rgba(25, 181, 181, 0.35);
+  --dk-text: #e9f2f2;
+  --dk-text-2: #b7c6c6;
+  --dk-muted: #8ea0a0;
+  --dk-accent: #19b5b5;
+  --dk-accent-2: #00c2c2;
+
+  /* re-map the original variables */
+  --cyan: var(--dk-accent);
+  --light-black: var(--dk-text);
+  --lg-black: rgba(255, 255, 255, 0.16);
+  --card-dark-bg: #0f1a1a;
+  --card-border-color: rgba(25, 181, 181, 0.4);
+}
+
+html[data-theme="dark"],
+html[data-theme="dark"] body {
+  background: var(--dk-bg);
+  color: var(--dk-text);
+}
+html[data-theme="dark"] body.gallery-body {
+  background: var(--dk-bg);
+}
+html[data-theme="dark"] ::selection {
+  background: rgba(25, 181, 181, 0.4);
+  color: #fff;
+}
+html[data-theme="dark"] ::-webkit-scrollbar {
+  width: 10px;
+}
+html[data-theme="dark"] ::-webkit-scrollbar-track {
+  background: var(--dk-bg);
+}
+html[data-theme="dark"] ::-webkit-scrollbar-thumb {
+  background: #243535;
+  border-radius: 10px;
+}
+
+/* ---------- header / nav ---------- */
+html[data-theme="dark"] .header {
+  background: rgba(13, 23, 23, 0.92);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  box-shadow: 0 1px 0 rgba(25, 181, 181, 0.35);
+}
+html[data-theme="dark"] .nav-links ul li a {
+  color: var(--dk-text);
+}
+html[data-theme="dark"] .nav-links ul li a:hover {
+  color: var(--dk-accent-2);
+}
+html[data-theme="dark"] .nav-links ul li:before {
+  background: var(--dk-accent-2);
+}
+html[data-theme="dark"] .menu-btn {
+  color: #fff;
+}
+html[data-theme="dark"] .nav-links.active,
+html[data-theme="dark"] .nav-links {
+  background: #0d1717;
+}
+
+/* ---------- hero ---------- */
+html[data-theme="dark"] .left-section h1 span,
+html[data-theme="dark"] .left-section h2,
+html[data-theme="dark"] .left-section .dev-description,
+html[data-theme="dark"] .hi-btn p {
+  color: var(--dk-text);
+}
+html[data-theme="dark"] .left-section h1 {
+  color: var(--dk-accent-2);
+}
+html[data-theme="dark"] .hi-btn p {
+  color: var(--dk-accent-2);
+  border-color: var(--dk-accent);
+  background: rgba(25, 181, 181, 0.08);
+}
+html[data-theme="dark"] .dev-vector img {
+  filter: brightness(0) invert(1) opacity(0.85);
+}
+
+/* ---------- buttons ---------- */
+html[data-theme="dark"] .bab-button a,
+html[data-theme="dark"] .bab-button button {
+  background: var(--dk-surface-2);
+  border: 1px solid var(--dk-border);
+}
+html[data-theme="dark"] .bab-button a span,
+html[data-theme="dark"] .bab-button button span {
+  color: var(--dk-text);
+}
+html[data-theme="dark"] .bab-button.dark-btn a,
+html[data-theme="dark"] .bab-button.dark-btn button {
+  background: #1a2a2a;
+  border-color: rgba(25, 181, 181, 0.35);
+}
+html[data-theme="dark"] .bab-button.dark-btn a span,
+html[data-theme="dark"] .bab-button.dark-btn button span {
+  color: #fff;
+}
+html[data-theme="dark"] .bab-button a:hover span,
+html[data-theme="dark"] .bab-button button:hover span {
+  color: #fff;
+}
+
+/* ---------- badges / section labels ---------- */
+html[data-theme="dark"] .me-about-wrapper h2,
+html[data-theme="dark"] .inner-heading h3,
+html[data-theme="dark"] .company-right .currentlt-working,
+html[data-theme="dark"] .hobbies-wrapper h2,
+html[data-theme="dark"] .work-section h2,
+html[data-theme="dark"] .every-where-caption p,
+html[data-theme="dark"] .sp-badge,
+html[data-theme="dark"] .ct-badge {
+  color: var(--dk-accent-2);
+  border-color: var(--dk-accent);
+  background: rgba(25, 181, 181, 0.08);
+}
+
+/* ---------- about ---------- */
+html[data-theme="dark"] .about-right p,
+html[data-theme="dark"] .about-right > h2,
+html[data-theme="dark"] .about-right > h3 {
+  color: var(--dk-text);
+}
+html[data-theme="dark"] .about-right > h2 span {
+  color: var(--dk-accent-2);
+}
+html[data-theme="dark"] .expertse-box {
+  background: var(--dk-surface);
+  border-color: var(--dk-border-2);
+}
+html[data-theme="dark"] .expertse-box p {
+  color: var(--dk-text-2);
+}
+html[data-theme="dark"] .expertse-box h3 {
+  color: var(--dk-accent-2);
+}
+html[data-theme="dark"] .expertse-box:hover {
+  background: var(--dk-accent);
+}
+html[data-theme="dark"] .expertse-box:hover h3,
+html[data-theme="dark"] .expertse-box:hover p {
+  color: #fff;
+}
+html[data-theme="dark"] .about-left {
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.45);
+}
+
+/* ---------- services spotlight (sp-section) ---------- */
+html[data-theme="dark"] .sp-section,
+html[data-theme="dark"] .sp-name,
+html[data-theme="dark"] .sp-title {
+  color: var(--dk-text);
+}
+html[data-theme="dark"] .sp-item {
+  background: var(--dk-surface);
+  border-color: var(--dk-border);
+}
+html[data-theme="dark"] .sp-item:hover {
+  border-color: var(--dk-accent);
+}
+html[data-theme="dark"] .sp-num {
+  color: var(--dk-muted);
+}
+html[data-theme="dark"] .sp-ic {
+  background: rgba(25, 181, 181, 0.12);
+}
+html[data-theme="dark"] .sp-stage {
+  background: linear-gradient(150deg, #0e8f8f 0%, #0a6f6f 45%, #063f3f 100%);
+  box-shadow: 0 40px 80px -40px rgba(0, 0, 0, 0.8);
+}
+
+/* ---------- company / creative boxes ---------- */
+html[data-theme="dark"] .company-right p,
+html[data-theme="dark"] .company-right h2,
+html[data-theme="dark"] .creative-logo h3,
+html[data-theme="dark"] .creative-box p {
+  color: var(--dk-text);
+}
+html[data-theme="dark"] .creative-box p {
+  color: var(--dk-text-2);
+}
+html[data-theme="dark"] .creative-box {
+  background: var(--dk-surface);
+  border-color: var(--dk-border);
+}
+html[data-theme="dark"] .creative-box:hover {
+  background: var(--dk-accent);
+}
+html[data-theme="dark"] .creative-box:hover p,
+html[data-theme="dark"] .creative-box:hover .creative-logo h3 {
+  color: #fff;
+}
+html[data-theme="dark"] .left-grid-container {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+html[data-theme="dark"] .left-card-one {
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.5);
+}
+
+/* ---------- hobbies ---------- */
+html[data-theme="dark"] .hobbies-wrapper > p,
+html[data-theme="dark"] .right-hobby-caption h3,
+html[data-theme="dark"] .right-hobby-caption p {
+  color: var(--dk-text);
+}
+html[data-theme="dark"] .right-hobby-caption p {
+  color: var(--dk-text-2);
+}
+html[data-theme="dark"] .hoby-items {
+  background: var(--dk-surface);
+  border-color: var(--dk-border);
+}
+html[data-theme="dark"] .hobbies-content:before {
+  background: var(--dk-border);
+}
+html[data-theme="dark"] .hobbies-image {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+html[data-theme="dark"] .hby-btn {
+  background: rgba(25, 181, 181, 0.1);
+}
+
+/* ---------- social ---------- */
+html[data-theme="dark"] .every-where-caption h2,
+html[data-theme="dark"] .sm-num h3,
+html[data-theme="dark"] .sm-num p,
+html[data-theme="dark"] .every-where-caption .journey {
+  color: var(--dk-text);
+}
+html[data-theme="dark"] .sm-num p,
+html[data-theme="dark"] .every-where-caption .journey {
+  color: var(--dk-text-2);
+}
+html[data-theme="dark"] .sm-card,
+html[data-theme="dark"] a.sm-card:last-child {
+  border-color: var(--dk-border);
+}
+html[data-theme="dark"] .sm-vector svg {
+  fill: var(--dk-text);
+}
+
+/* ---------- running text slider ---------- */
+html[data-theme="dark"] .slide h2 {
+  color: var(--dk-text);
+}
+
+/* ---------- footer ---------- */
+html[data-theme="dark"] .footer-bg-image img {
+  filter: brightness(0.45) saturate(0.85);
+}
+html[data-theme="dark"] .privacy-section:before {
+  background: rgba(255, 255, 255, 0.18);
+}
+
+/* ---------- projects page ---------- */
+html[data-theme="dark"] .project-banner-bg img,
+html[data-theme="dark"] .talk-bg img {
+  filter: brightness(0.5) saturate(0.9);
+}
+html[data-theme="dark"] section.project-banner h2,
+html[data-theme="dark"] section.project-banner p,
+html[data-theme="dark"] .project-caption-banner.contact-us h2 {
+  color: #fff;
+}
+html[data-theme="dark"] .project-card {
+  background: var(--dk-surface);
+  border-color: var(--dk-border);
+}
+html[data-theme="dark"] .project-card:hover {
+  border-color: var(--dk-accent);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.5);
+}
+html[data-theme="dark"] .project-caption {
+  border-top-color: var(--dk-border);
+}
+html[data-theme="dark"] .project-caption h2 {
+  color: var(--dk-accent-2);
+}
+html[data-theme="dark"] .project-caption p {
+  color: var(--dk-text-2);
+}
+html[data-theme="dark"] .filter-buttons {
+  background: var(--dk-surface);
+  border-color: var(--dk-border-2);
+}
+html[data-theme="dark"] .filter-buttons button {
+  background: transparent;
+  color: var(--dk-text);
+}
+html[data-theme="dark"] .filter-buttons button.active,
+html[data-theme="dark"] .filter-buttons button:hover {
+  background: var(--dk-accent);
+  color: #fff;
+}
+html[data-theme="dark"] .process-section {
+  background: #0a5f5f;
+}
+
+/* ---------- contact page ---------- */
+html[data-theme="dark"] .ct-section,
+html[data-theme="dark"] .ct-heading,
+html[data-theme="dark"] .ct-text {
+  color: var(--dk-text);
+}
+html[data-theme="dark"] .ct-card {
+  background: var(--dk-surface);
+  border-color: var(--dk-border-2);
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.45);
+}
+html[data-theme="dark"] .ct-info-col {
+  background: #0a5f5f;
+  border-left-color: rgba(255, 255, 255, 0.12);
+}
+html[data-theme="dark"] .ct-input {
+  background: var(--dk-bg-2);
+  border-color: var(--dk-border);
+}
+html[data-theme="dark"] .ct-input:focus-within {
+  border-color: var(--dk-accent);
+  box-shadow: 0 0 0 3px rgba(25, 181, 181, 0.2);
+}
+html[data-theme="dark"] .ct-input input,
+html[data-theme="dark"] .ct-input textarea {
+  color: var(--dk-text);
+}
+html[data-theme="dark"] .ct-input input::placeholder,
+html[data-theme="dark"] .ct-input textarea::placeholder,
+html[data-theme="dark"] .ct-note {
+  color: var(--dk-muted);
+}
+html[data-theme="dark"] .ct-icon {
+  background: rgba(255, 255, 255, 0.1);
+}
+html[data-theme="dark"] .ct-icon svg {
+  stroke: #fff;
+}
+
+/* ---------- gallery page ---------- */
+html[data-theme="dark"] .gallery_title {
+  background: var(--dk-surface);
+  border: 1px solid var(--dk-border);
+  border-radius: 6px;
+}
+html[data-theme="dark"] .gallery_title h1,
+html[data-theme="dark"] .gallery_title h2 {
+  color: var(--dk-text);
+}
+html[data-theme="dark"] .gallery_title p {
+  color: var(--dk-text-2);
+}
+html[data-theme="dark"] .grid_images {
+  background: var(--dk-surface);
+  border-color: var(--dk-border);
+}
+
+/* ---------- generic fallbacks ---------- */
+html[data-theme="dark"] .cyan {
+  color: var(--dk-accent-2) !important;
+}

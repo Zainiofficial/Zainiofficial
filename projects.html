@@ -37,6 +37,10 @@
     <link rel=stylesheet href="css/media-queries.css">
     <link rel=stylesheet href="css/laptop-mediaqueries.css">
     <link rel=stylesheet href="css/tab-responsive.css">
+    <!-- toggle dark theme -->
+    <link rel=stylesheet href="css/theme.css">
+    <script>(function () { try { if (localStorage.getItem('zaini-theme') === 'dark') { document.documentElement.setAttribute('data-theme', 'dark') } } catch (e) { } })()</script>
+    <!-- end toggle -->
     <link rel=icon type=image/png sizes=192x192 href="images/icon.png">
     <link rel=sitemap type=application/xml title=Sitemap href="/sitemap.xml">
     <script type="application/ld+json">
@@ -186,7 +190,7 @@
                     <div class="project-image">
                         <img src="images/saudi-arabic-airline.webp" alt="">
                         <div class="bab-button arrow-btn dark-btn same-width">
-                            <a href="javascript:void(0)">
+                            <a href="javascript:void(0)" target="_blank">
                                 <div class="icon">
                                     <svg width=27 height=28 viewBox="0 0 27 28" fill=none
                                         xmlns=http://www.w3.org/2000/svg>
@@ -235,11 +239,11 @@
                     </div>
                 </div>
 
-                <div class="project-card" data-category="websites">
+                <div class="project-card" data-category="annual-reports">
                     <div class="project-image">
                         <img src="images/bank-albilad.webp" alt="">
                         <div class="bab-button arrow-btn dark-btn same-width">
-                            <a href="javascript:void(0)">
+                            <a href="https://www.bankalbilad.com.sa/annual-report-2025/index.html" target="_blank">
                                 <div class="icon">
                                     <svg width=27 height=28 viewBox="0 0 27 28" fill=none
                                         xmlns=http://www.w3.org/2000/svg>
@@ -261,11 +265,11 @@
                     </div>
                 </div>
 
-                <div class="project-card" data-category="articles">
+                <div class="project-card" data-category="annual-reports">
                     <div class="project-image">
-                        <img src="images/music-streaming-experience.jpg" alt="">
+                        <img src="images/arab-energy-fund-badge.webp" alt="">
                         <div class="bab-button arrow-btn dark-btn same-width">
-                            <a href="javascript:void(0)">
+                            <a href="https://taef.com/annual-report-2025/index.html" target="_blank">
                                 <div class="icon">
                                     <svg width=27 height=28 viewBox="0 0 27 28" fill=none
                                         xmlns=http://www.w3.org/2000/svg>
@@ -280,16 +284,18 @@
                         </div>
                     </div>
                     <div class="project-caption">
-                        <h2>Portfolio Website</h2>
-                        <p>Ab har card ke paas data-category hai, jo batata hai ke woh kis category ka hai.</p>
+                        <h2>The Arab Energy Fund Annual Report</h2>
+                        <p>Added English and Arabic content to the annual report, integrated images for both languages,
+                            and optimized the layout for mobile screens with improved visuals to keep it consistent,
+                            responsive and easy to read.</p>
                     </div>
                 </div>
 
                 <div class="project-card" data-category="websites">
                     <div class="project-image">
-                        <img src="images/music-streaming-experience.jpg" alt="">
+                        <img src="images/mgc.webp" alt="">
                         <div class="bab-button arrow-btn dark-btn same-width">
-                            <a href="javascript:void(0)">
+                            <a href="https://mgc.com.sa/">
                                 <div class="icon">
                                     <svg width=27 height=28 viewBox="0 0 27 28" fill=none
                                         xmlns=http://www.w3.org/2000/svg>
@@ -304,16 +310,19 @@
                         </div>
                     </div>
                     <div class="project-caption">
-                        <h2>Portfolio Website</h2>
-                        <p>Ab har card ke paas data-category hai, jo batata hai ke woh kis category ka hai.</p>
+                        <h2>MGC (Mutlaq Al Ghowairi Contracting)</h2>
+                        <p>Added English and Arabic content across the website, uploaded and compressed media for faster
+                            loading, and refined the visuals to keep every page clean, readable and consistent in both
+                            languages.</p>
                     </div>
                 </div>
 
-                <div class="project-card" data-category="annual-reports">
+                <div class="project-card" data-category="articles">
                     <div class="project-image">
-                        <img src="images/music-streaming-experience.jpg" alt="">
+                        <img src="images/spark.webp" alt="">
                         <div class="bab-button arrow-btn dark-btn same-width">
-                            <a href="javascript:void(0)">
+                            <a href="https://wearespark.me/insghts/experience-design/ux-that-builds-trust-why-design-can-make-or-break-gcc-fintech/"
+                                target="_blank">
                                 <div class="icon">
                                     <svg width=27 height=28 viewBox="0 0 27 28" fill=none
                                         xmlns=http://www.w3.org/2000/svg>
@@ -328,8 +337,10 @@
                         </div>
                     </div>
                     <div class="project-caption">
-                        <h2>Portfolio Website</h2>
-                        <p>Ab har card ke paas data-category hai, jo batata hai ke woh kis category ka hai.</p>
+                        <h2>UX That Builds Trust Article</h2>
+                        <p>Built and published this insight article in Umbraco, added the full content with structured
+                            headings, integrated images, and formatted the layout for a clean, readable experience
+                            across devices.</p>
                     </div>
                 </div>
 
@@ -735,6 +746,7 @@
     <script src="js/main.js"></script>
     <script src="js/gsap.js"></script>
     <script src="js/projects-gsap.js"></script>
+    <script src="js/theme-toggle.js"></script>
     <script>
         const filterButtons = document.querySelectorAll("[data-filter]");
         const projectCards = document.querySelectorAll(".project-card");

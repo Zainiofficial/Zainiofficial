@@ -36,6 +36,10 @@
     <link rel=stylesheet href="css/media-queries.css">
     <link rel=stylesheet href="css/laptop-mediaqueries.css">
     <link rel=stylesheet href="css/tab-responsive.css">
+    <!-- toggle dark theme -->
+    <link rel=stylesheet href="css/theme.css">
+    <script>(function () { try { if (localStorage.getItem('zaini-theme') === 'dark') { document.documentElement.setAttribute('data-theme', 'dark') } } catch (e) { } })()</script>
+    <!-- end toggle -->
     <link rel=icon type=image/png sizes=192x192 href="images/icon.png">
     <link rel=sitemap type=application/xml title=Sitemap href="/sitemap.xml">
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-7D4FM7Y4RQ"></script>
@@ -1873,6 +1877,7 @@
     <script src="js/locomotive-scroll.min.js"></script>
     <script src="js/main.js"></script>
     <script src="js/gsap.js"></script>
+    <script src="js/theme-toggle.js"></script>
 </body>
 
 </html>
