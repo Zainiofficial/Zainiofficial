@@ -27,7 +27,10 @@
   padding: 0;
   outline: none;
   -webkit-tap-highlight-color: transparent;
-  transition: background 0.35s ease, border-color 0.35s ease, box-shadow 0.35s ease;
+  transition:
+    background 0.35s ease,
+    border-color 0.35s ease,
+    box-shadow 0.35s ease;
 }
 .theme-toggle:focus-visible {
   box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.35);
@@ -41,7 +44,9 @@
   border-radius: 50%;
   background: #fff;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.35);
-  transition: transform 0.45s cubic-bezier(0.34, 1.56, 0.64, 1), background 0.35s ease;
+  transition:
+    transform 0.45s cubic-bezier(0.34, 1.56, 0.64, 1),
+    background 0.35s ease;
 }
 .theme-toggle__icon {
   position: absolute;
@@ -49,7 +54,9 @@
   width: 15px;
   height: 15px;
   transform: translateY(-50%);
-  transition: opacity 0.3s ease, transform 0.45s ease;
+  transition:
+    opacity 0.3s ease,
+    transform 0.45s ease;
   pointer-events: none;
 }
 .theme-toggle__icon--sun {
@@ -112,8 +119,13 @@ html.theme-switching,
 html.theme-switching *,
 html.theme-switching *::before,
 html.theme-switching *::after {
-  transition: background-color 0.45s ease, color 0.45s ease, border-color 0.45s ease,
-    fill 0.45s ease, stroke 0.45s ease, box-shadow 0.45s ease !important;
+  transition:
+    background-color 0.45s ease,
+    color 0.45s ease,
+    border-color 0.45s ease,
+    fill 0.45s ease,
+    stroke 0.45s ease,
+    box-shadow 0.45s ease !important;
 }
 
 @media only screen and (max-width: 767px) {
@@ -153,7 +165,8 @@ html[data-theme="dark"] {
   --dk-text: #e9f2f2;
   --dk-text-2: #b7c6c6;
   --dk-muted: #8ea0a0;
-  --dk-accent: #19b5b5;
+
+  --dk-accent: #008b8b;
   --dk-accent-2: #00c2c2;
 
   /* re-map the original variables */
