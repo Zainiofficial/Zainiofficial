@@ -27,7 +27,7 @@ I believe great web design isn't just about pixels — it's about emotion, speed
 
 ### ⚝ Explore My Work
 
-- **Portfolio:** [zainiiofficial.netlify.app](https://zainiiofficial.netlify.app)
+- **Portfolio:** [zainiofficial.vercel.app](https://zainiofficial.vercel.app)
 - **Instagram:** [@\_zaini_official](https://www.instagram.com/zaini_official)
 - **Twitter (X):** [@zainiofficial19](https://x.com/_Zaini_Official)
 - **LinkedIn:** [Zain Ali](https://www.linkedin.com/in/zainiofficial193)
