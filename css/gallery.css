@@ -1,165 +1,962 @@
-.gallery-body {
-  background-color: #faf0ef;
+/* ==========================================================
+   gallery.css â€” Zaini Official Gallery
+
+   Section 1  .gallery-block  : 3 columns
+                Row 1 = wide image (2 cols) + tall image
+                Row 2 = three equal boxes
+   Section 2  .mosaic-block   : 4 columns, 7 boxes
+                tall left | top center | top right wide
+                          | mid center | tall center-right | tall right
+                bottom wide (2 cols)
+   Section 3  .cards-block    : 4 columns x 2 rows, 8 equal square cards
+   Section 4  .portrait-block : 4 columns x 2 rows, 8 equal 3:4 portrait boxes
+   Each box has its own class and its own CSS.
+   ========================================================== */
+
+/* ---------- page wrapper ---------- */
+.gallery-page {
+  width: 100%;
+  /* max-width: 1400px; */
+  margin: 0 auto;
+  padding: 5vw 5vw;
+  box-sizing: border-box;
 }
 
-.gallery_grid_container {
+/* ==========================================================
+   SECTION 1 : gallery block (repeats)
+   ========================================================== */
+.gallery-block {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-gap: 1vw;
+  grid-template-columns: 4fr 1fr 1fr;
+  grid-template-rows: 600px 480px;
+  gap: 16px;
+  margin-bottom: 16px;
 }
 
-.grid_images img {
-  width: 100%;
-  display: block;
-}
-.grid_images {
-  width: 100%;
-  aspect-ratio: 4 / 3;
+/* ---------- box 1 : wide landscape (top left, 2 columns) ---------- */
+.gallery-box-wide {
+  grid-column: 1 / 3;
+  grid-row: 1 / 2;
+  border-radius: 10px;
   overflow: hidden;
-  padding: 6px;
-  background-color: #fff;
-  border: 1px solid #0000001f;
+  background-color: #008b8b;
+  border: 1px solid rgba(0, 0, 0, 0.25);
 }
 
-.onebyone {
-  aspect-ratio: 1 / 1 !important;
-}
-
-.longratio {
-  aspect-ratio: 766 / 1342 !important;
-}
-
-.grid_images img {
+.gallery-box-wide img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   display: block;
 }
 
-.gallery_container {
-  padding: 5vw 5vw 0vw 5vw;
-  margin-bottom: 5vw;
-}
-.gallery_title h2,
-.gallery_title h1 {
-  font-size: clamp(20px, 3vw, 42px);
-  margin-bottom: 1vw;
-}
-
-.gallery_title {
-  background: #00000021;
-  padding: 2vw 2vw;
-  margin-bottom: 3vw;
+/* ---------- box 2 : tall portrait (top right) ---------- */
+.gallery-box-tall {
+  grid-column: 3 / 4;
+  grid-row: 1 / 2;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #008b8b;
+  border: 1px solid rgba(0, 0, 0, 0.25);
 }
 
-.content_holder {
-  padding-top: 82px;
+.gallery-box-tall img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 
-.gallery_title p {
-  font-size: clamp(14px, 1.3vw, 20px);
-  width: 45%;
+/* ---------- box 3 : bottom left ---------- */
+.gallery-box-left {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #008b8b;
+  border: 1px solid rgba(0, 0, 0, 0.25);
 }
 
-/* ============================
-   Tablet (≤1024px)
-   ============================ */
+.gallery-box-left img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* ---------- box 4 : bottom center ---------- */
+.gallery-box-center {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #008b8b;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.gallery-box-center img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* ---------- box 5 : bottom right ---------- */
+.gallery-box-right {
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #008b8b;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.gallery-box-right img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* ==========================================================
+   SECTION 2 : mosaic block (repeats)
+   ========================================================== */
+.mosaic-block {
+  display: grid;
+  grid-template-columns: 1.15fr 1.25fr 1fr 1fr;
+  grid-template-rows: 440px 250px 320px;
+  gap: 16px;
+  margin-top: 60px;
+  margin-bottom: 16px;
+}
+
+/* ---------- box 1 : tall left (rows 1-2) ---------- */
+.mosaic-box-tall-left {
+  grid-column: 1 / 2;
+  grid-row: 1 / 3;
+  border-radius: 14px;
+  overflow: hidden;
+  background-color: #008b8b;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.mosaic-box-tall-left img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* ---------- box 2 : top center ---------- */
+.mosaic-box-top-center {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #008b8b;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.mosaic-box-top-center img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* ---------- box 3 : top right wide (2 columns) ---------- */
+.mosaic-box-top-right-wide {
+  grid-column: 3 / 5;
+  grid-row: 1 / 2;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #008b8b;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.mosaic-box-top-right-wide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* ---------- box 4 : middle center ---------- */
+.mosaic-box-mid-center {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #008b8b;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.mosaic-box-mid-center img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* ---------- box 5 : tall center-right (rows 2-3) ---------- */
+.mosaic-box-tall-center-right {
+  grid-column: 3 / 4;
+  grid-row: 2 / 4;
+  border-radius: 14px;
+  overflow: hidden;
+  background-color: #008b8b;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.mosaic-box-tall-center-right img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* ---------- box 6 : tall right (rows 2-3) ---------- */
+.mosaic-box-tall-right {
+  grid-column: 4 / 5;
+  grid-row: 2 / 4;
+  border-radius: 14px;
+  overflow: hidden;
+  background-color: #008b8b;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.mosaic-box-tall-right img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* ---------- box 7 : bottom wide (2 columns) ---------- */
+.mosaic-box-bottom-wide {
+  grid-column: 1 / 3;
+  grid-row: 3 / 4;
+  border-radius: 14px;
+  overflow: hidden;
+  background-color: #008b8b;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.mosaic-box-bottom-wide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* ==========================================================
+   SECTION 3 : cards block (8 equal squares)
+   ========================================================== */
+.cards-block {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 16px;
+  margin-top: 60px;
+  margin-bottom: 16px;
+}
+
+/* ---------- card 1 ---------- */
+.cards-box-one {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  border-radius: 10px;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  background-color: #008b8b;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.cards-box-one img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 20%;
+  display: block;
+}
+
+/* ---------- card 2 ---------- */
+.cards-box-two {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  border-radius: 10px;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  background-color: #008b8b;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.cards-box-two img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 20%;
+  display: block;
+}
+
+/* ---------- card 3 ---------- */
+.cards-box-three {
+  grid-column: 3 / 4;
+  grid-row: 1 / 2;
+  border-radius: 10px;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  background-color: #008b8b;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.cards-box-three img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 20%;
+  display: block;
+}
+
+/* ---------- card 4 ---------- */
+.cards-box-four {
+  grid-column: 4 / 5;
+  grid-row: 1 / 2;
+  border-radius: 10px;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  background-color: #008b8b;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.cards-box-four img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 20%;
+  display: block;
+}
+
+/* ---------- card 5 ---------- */
+.cards-box-five {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+  border-radius: 16px;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  background-color: #008b8b;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.cards-box-five img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 20%;
+  display: block;
+}
+
+/* ---------- card 6 ---------- */
+.cards-box-six {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  border-radius: 10px;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  background-color: #008b8b;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.cards-box-six img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 20%;
+  display: block;
+}
+
+/* ---------- card 7 ---------- */
+.cards-box-seven {
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+  border-radius: 10px;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  background-color: #008b8b;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.cards-box-seven img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 20%;
+  display: block;
+}
+
+/* ---------- card 8 ---------- */
+.cards-box-eight {
+  grid-column: 4 / 5;
+  grid-row: 2 / 3;
+  border-radius: 10px;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  background-color: #008b8b;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.cards-box-eight img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 20%;
+  display: block;
+}
+
+/* ==========================================================
+   SECTION 4 : portrait block (8 equal 3:4 boxes)
+   ========================================================== */
+.portrait-block {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 16px;
+  margin-top: 60px;
+  margin-bottom: 16px;
+}
+
+/* ---------- portrait 1 ---------- */
+.portrait-box-one {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  aspect-ratio: 3 / 4;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #008b8b;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.portrait-box-one img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* ---------- portrait 2 ---------- */
+.portrait-box-two {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  aspect-ratio: 3 / 4;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #008b8b;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.portrait-box-two img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* ---------- portrait 3 ---------- */
+.portrait-box-three {
+  grid-column: 3 / 4;
+  grid-row: 1 / 2;
+  aspect-ratio: 3 / 4;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #008b8b;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.portrait-box-three img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* ---------- portrait 4 ---------- */
+.portrait-box-four {
+  grid-column: 4 / 5;
+  grid-row: 1 / 2;
+  aspect-ratio: 3 / 4;
+  border-radius: 16px;
+  overflow: hidden;
+  background-color: #008b8b;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.portrait-box-four img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* ---------- portrait 5 ---------- */
+.portrait-box-five {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+  aspect-ratio: 3 / 4;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #008b8b;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.portrait-box-five img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* ---------- portrait 6 ---------- */
+.portrait-box-six {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  aspect-ratio: 3 / 4;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #008b8b;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.portrait-box-six img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* ---------- portrait 7 ---------- */
+.portrait-box-seven {
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+  aspect-ratio: 3 / 4;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #008b8b;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.portrait-box-seven img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* ---------- portrait 8 ---------- */
+.portrait-box-eight {
+  grid-column: 4 / 5;
+  grid-row: 2 / 3;
+  aspect-ratio: 3 / 4;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #008b8b;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.portrait-box-eight img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* ==========================================================
+   Tablet (max 1024px) : 2 columns
+   ========================================================== */
 @media (max-width: 1024px) {
-  .gallery_grid_container {
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 2vw;
+  .gallery-page {
+    padding: 40px 24px;
   }
 
-  .gallery_container {
-    padding: 6vw 6vw 0vw 6vw;
-    margin-bottom: 6vw;
+  /* ----- section 1 ----- */
+  .gallery-block {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 420px 420px 380px;
+    gap: 12px;
+    margin-bottom: 12px;
   }
 
-  .gallery_title {
-    padding: 4vw;
-    margin-bottom: 5vw;
+  .gallery-box-wide {
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
   }
 
-  .gallery_title p {
-    width: 70%;
+  .gallery-box-tall {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
   }
 
-  .content_holder {
-    padding-top: 70px;
+  .gallery-box-left {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+  }
+
+  .gallery-box-center {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+  }
+
+  .gallery-box-right {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+  }
+
+  /* ----- section 2 ----- */
+  .mosaic-block {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 420px 260px 320px 420px;
+    gap: 12px;
+    margin-top: 40px;
+    margin-bottom: 12px;
+  }
+
+  .mosaic-box-tall-left {
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+  }
+
+  .mosaic-box-top-center {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+  }
+
+  .mosaic-box-mid-center {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+  }
+
+  .mosaic-box-top-right-wide {
+    grid-column: 1 / 3;
+    grid-row: 3 / 4;
+  }
+
+  .mosaic-box-tall-center-right {
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+  }
+
+  .mosaic-box-tall-right {
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+  }
+
+  .mosaic-box-bottom-wide {
+    grid-column: 1 / 3;
+    grid-row: 5 / 6;
+    height: 320px;
+  }
+
+  /* ----- section 3 ----- */
+  .cards-block {
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    margin-top: 40px;
+    margin-bottom: 12px;
+  }
+
+  .cards-box-one {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+  }
+
+  .cards-box-two {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+  }
+
+  .cards-box-three {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+  }
+
+  .cards-box-four {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+  }
+
+  .cards-box-five {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+  }
+
+  .cards-box-six {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+  }
+
+  .cards-box-seven {
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+  }
+
+  .cards-box-eight {
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+  }
+
+  /* ----- section 4 ----- */
+  .portrait-block {
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    margin-top: 40px;
+    margin-bottom: 12px;
+  }
+
+  .portrait-box-one {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+  }
+
+  .portrait-box-two {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+  }
+
+  .portrait-box-three {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+  }
+
+  .portrait-box-four {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+  }
+
+  .portrait-box-five {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+  }
+
+  .portrait-box-six {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+  }
+
+  .portrait-box-seven {
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+  }
+
+  .portrait-box-eight {
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
   }
 }
 
-/* ============================
-   Mobile (≤768px)
-   ============================ */
-@media (max-width: 768px) {
-  .gallery_grid_container {
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 2.5vw;
+/* ==========================================================
+   Mobile (max 600px) : 1 column
+   ========================================================== */
+@media (max-width: 600px) {
+  .gallery-page {
+    padding: 24px 16px;
   }
 
-  .gallery_container {
-    padding: 6vw 4vw 0vw 4vw;
-    margin-bottom: 8vw;
+  /* ----- section 1 ----- */
+  .gallery-block {
+    grid-template-columns: 1fr;
+    grid-template-rows: 300px 460px 300px 380px 460px;
+    gap: 10px;
+    margin-bottom: 10px;
   }
 
-  .grid_images {
-    padding: 4px;
+  .gallery-box-wide {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    border-radius: 14px;
   }
 
-  .gallery_title {
-    padding: 5vw 4vw;
-    margin-bottom: 6vw;
+  .gallery-box-tall {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    border-radius: 14px;
   }
 
-  .gallery_title h2,
-  .gallery_title h1 {
-    font-size: clamp(20px, 6vw, 28px);
-    margin-bottom: 2vw;
+  .gallery-box-left {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+    border-radius: 14px;
   }
 
-  .gallery_title p {
-    font-size: clamp(13px, 3.2vw, 16px);
-    width: 100%;
+  .gallery-box-center {
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+    border-radius: 14px;
   }
 
-  .content_holder {
-    padding-top: 60px;
-  }
-}
-
-/* ============================
-   Small mobile (≤480px)
-   ============================ */
-@media (max-width: 480px) {
-  .gallery_grid_container {
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 2vw;
+  .gallery-box-right {
+    grid-column: 1 / 2;
+    grid-row: 5 / 6;
+    border-radius: 14px;
   }
 
-  .gallery_container {
-    padding: 8vw 3vw 0vw 3vw;
+  /* ----- section 2 ----- */
+  .mosaic-block {
+    grid-template-columns: 1fr;
+    grid-template-rows: 460px 360px 300px 280px 460px 460px 300px;
+    gap: 10px;
+    margin-top: 30px;
+    margin-bottom: 10px;
   }
 
-  .grid_images {
-    padding: 3px;
-    border-width: 1px;
+  .mosaic-box-tall-left {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    border-radius: 12px;
   }
 
-  .gallery_title {
-    padding: 5vw 3.5vw;
+  .mosaic-box-top-center {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    border-radius: 12px;
   }
 
-  .gallery_title h2,
-  .gallery_title h1 {
-    font-size: clamp(18px, 6.5vw, 24px);
+  .mosaic-box-top-right-wide {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+    border-radius: 12px;
   }
 
-  .gallery_title p {
-    font-size: clamp(12px, 3.5vw, 15px);
+  .mosaic-box-mid-center {
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+    border-radius: 12px;
   }
 
-  .content_holder {
-    padding-top: 56px;
+  .mosaic-box-tall-center-right {
+    grid-column: 1 / 2;
+    grid-row: 5 / 6;
+    border-radius: 12px;
+  }
+
+  .mosaic-box-tall-right {
+    grid-column: 1 / 2;
+    grid-row: 6 / 7;
+    border-radius: 12px;
+  }
+
+  .mosaic-box-bottom-wide {
+    grid-column: 1 / 2;
+    grid-row: 7 / 8;
+    border-radius: 12px;
+    height: auto;
+  }
+
+  /* ----- section 3 ----- */
+  .cards-block {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+
+  .cards-box-one {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    border-radius: 12px;
+  }
+
+  .cards-box-two {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    border-radius: 12px;
+  }
+
+  .cards-box-three {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+    border-radius: 12px;
+  }
+
+  .cards-box-four {
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+    border-radius: 12px;
+  }
+
+  .cards-box-five {
+    grid-column: 1 / 2;
+    grid-row: 5 / 6;
+    border-radius: 12px;
+  }
+
+  .cards-box-six {
+    grid-column: 1 / 2;
+    grid-row: 6 / 7;
+    border-radius: 12px;
+  }
+
+  .cards-box-seven {
+    grid-column: 1 / 2;
+    grid-row: 7 / 8;
+    border-radius: 12px;
+  }
+
+  .cards-box-eight {
+    grid-column: 1 / 2;
+    grid-row: 8 / 9;
+    border-radius: 12px;
+  }
+
+  /* ----- section 4 ----- */
+  .portrait-block {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+
+  .portrait-box-one {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    border-radius: 12px;
+  }
+
+  .portrait-box-two {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    border-radius: 12px;
+  }
+
+  .portrait-box-three {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+    border-radius: 12px;
+  }
+
+  .portrait-box-four {
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+    border-radius: 12px;
+  }
+
+  .portrait-box-five {
+    grid-column: 1 / 2;
+    grid-row: 5 / 6;
+    border-radius: 12px;
+  }
+
+  .portrait-box-six {
+    grid-column: 1 / 2;
+    grid-row: 6 / 7;
+    border-radius: 12px;
+  }
+
+  .portrait-box-seven {
+    grid-column: 1 / 2;
+    grid-row: 7 / 8;
+    border-radius: 12px;
+  }
+
+  .portrait-box-eight {
+    grid-column: 1 / 2;
+    grid-row: 8 / 9;
+    border-radius: 12px;
   }
 }
