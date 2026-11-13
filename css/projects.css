@@ -16,6 +16,10 @@ section.project-banner {
   object-position: center;
 }
 
+.project-banner-bg {
+  background-color: #008b8b;
+}
+
 section.project-banner h2 {
   font-size: 4vw;
   width: 60%;
