@@ -2,882 +2,615 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 
+  <!-- Home -->
   <url>
     <loc>https://zainiofficial.vercel.app/</loc>
-    <lastmod>2026-09-23</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://zainiofficial.vercel.app/images/about-zaini.png</image:loc>
+      <image:title>Zaini Official, Zain Ali, frontend web developer and basketball player from Lahore</image:title>
+    </image:image>
   </url>
 
-  <!-- Gallery Page -->
+  <!-- Projects -->
+  <url>
+    <loc>https://zainiofficial.vercel.app/projects.html</loc>
+    <lastmod>2026-11-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://zainiofficial.vercel.app/images/projects.webp</image:loc>
+      <image:title>Zaini Official projects banner</image:title>
+    </image:image>
+  </url>
+
+  <!-- Contact -->
+  <url>
+    <loc>https://zainiofficial.vercel.app/contact.html</loc>
+    <lastmod>2026-11-13</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://zainiofficial.vercel.app/images/contact.webp</image:loc>
+      <image:title>Contact Zaini Official banner</image:title>
+    </image:image>
+  </url>
+
+  <!-- Gallery -->
   <url>
     <loc>https://zainiofficial.vercel.app/gallery.html</loc>
-    <lastmod>2026-09-23</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/4-3-landscape/zainiofficial-(1).jpeg</image:loc>
-      <image:title>Zaini Official with teammates during a basketball team gathering</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/gallery.webp</image:loc>
+      <image:title>Zaini Official gallery banner with camera and photo cards</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/4-3-landscape/zainiofficial-(2).png</image:loc>
-      <image:title>Zaini Official standing with teammates outdoors during a sports trip</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/4-3-landscape/zaini-official-badshahi-mosque-lahore-night.webp</image:loc>
+      <image:title>Zaini Official taking a selfie with two teammates beside a basketball court</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/4-3-landscape/zainiofficial-(3).png</image:loc>
-      <image:title>Zaini Official posing outdoors at a sports event</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/zaini-official-college-uniform-closeup.webp</image:loc>
+      <image:title>Zaini Official close-up in college uniform</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/4-3-landscape/zainiofficial-(4).jpeg</image:loc>
-      <image:title>Zaini Official with a group of friends at an outdoor gathering</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/4-3-landscape/zaini-official-selfie-with-teammates-court.webp</image:loc>
+      <image:title>Zaini Official enjoying a fun moment with basketball teammates inside an indoor court</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/4-3-landscape/zainiofficial-(5).jpeg</image:loc>
-      <image:title>Zaini Official with teammates posing for a group photo</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/1771701570916.webp</image:loc>
+      <image:title>Zaini Official in a striped shirt by a window in a black and white portrait</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/4-3-landscape/zainiofficial-(6).jpeg</image:loc>
-      <image:title>Zaini Official with basketball teammates at an indoor event</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/zaini-official-brown-jacket-sunglasses-studio.webp</image:loc>
+      <image:title>Zaini Official seated in a brown jacket and sunglasses in a studio portrait</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/4-3-landscape/zainiofficial-(7).jpeg</image:loc>
-      <image:title>Zaini Official with friends posing together at a sports gathering</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/zaini-official-khelta-punjab-winner-trophy-night.webp</image:loc>
+      <image:title>Zaini Official holding the Khelta Punjab winner trophy at night</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/4-3-landscape/zainiofficial-(8).jpeg</image:loc>
-      <image:title>Zaini Official riding a motorcycle outdoors</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/zaini-official-receiving-trophy-chief-guest-sargodha.webp</image:loc>
+      <image:title>Zaini Official receiving a trophy from the chief guest at a Sargodha event</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/4-3-landscape/zainiofficial-(9).jpeg</image:loc>
-      <image:title>Zaini Official with two teammates at a sports event</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/zaini-official-mustard-polo-sunglasses-smiling.webp</image:loc>
+      <image:title>Zaini Official smiling in a mustard polo shirt and sunglasses</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/4-3-landscape/zainiofficial-(10).jpeg</image:loc>
-      <image:title>Zaini Official with a basketball team in matching uniforms</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/zaini-official-yellow-polo-sunglasses-garden.webp</image:loc>
+      <image:title>Zaini Official in a yellow polo shirt and sunglasses in a garden</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/4-3-landscape/zainiofficial-(12).jpeg</image:loc>
-      <image:title>Zaini Official with his basketball team on an indoor court</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/zaini-official-with-friends-night-event.webp</image:loc>
+      <image:title>Zaini Official with friends at a night event</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/4-3-landscape/zainiofficial-(13).jpeg</image:loc>
-      <image:title>Zaini Official receiving an award at a basketball event</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/zaini-official-with-mentor-night-basketball-court.webp</image:loc>
+      <image:title>Zaini Official with his mentor after a night basketball session</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/4-3-landscape/zainiofficial-(14).jpeg</image:loc>
-      <image:title>Zaini Official with teammates wearing sports uniforms</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/zaini-official-with-galaxy-basketball-club-player.webp</image:loc>
+      <image:title>Zaini Official with a Galaxy Basketball Club player on court</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/4-3-landscape/zainiofficial-(15).jpeg</image:loc>
-      <image:title>Zaini Official posing with two teammates in sports uniforms</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/zaini-official-with-junior-players-courtside.webp</image:loc>
+      <image:title>Zaini Official with junior players at the courtside</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/4-3-landscape/zainiofficial-(16).jpeg</image:loc>
-      <image:title>Zaini Official with a basketball team on an outdoor court</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/1-by-1/zaini-official-black-and-white-formal-portrait.webp</image:loc>
+      <image:title>Zaini Official in a black and white formal portrait wearing a suit</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/4-3-landscape/zainiofficial-(17).jpeg</image:loc>
-      <image:title>Zaini Official with teammates at an indoor basketball court</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/1-by-1/zaini-official-sunglasses-black-blazer-portrait.webp</image:loc>
+      <image:title>Zaini Official wearing sunglasses and a black blazer in a portrait</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/4-3-landscape/zainiofficial-(18).jpeg</image:loc>
-      <image:title>Zaini Official with friends during a casual group moment</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/1-by-1/zaini-official-with-friend-football-field.webp</image:loc>
+      <image:title>Zaini Official standing with a friend on a football field</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/4-3-landscape/zainiofficial-(19).jpeg</image:loc>
-      <image:title>Zaini Official with teammates seated inside a sports venue</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/1-by-1/zaini-official-media-interview-young-athlete.webp</image:loc>
+      <image:title>Zaini Official being interviewed by news channel reporters as a young athlete</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/4-3-landscape/zainiofficial-(20).jpeg</image:loc>
-      <image:title>Zaini Official with his basketball team posing on the court</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/1-by-1/zaini-official-with-teammate-casual-portrait.webp</image:loc>
+      <image:title>Zaini Official with a teammate in a casual outdoor portrait</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/4-3-landscape/zainiofficial-(21).jpeg</image:loc>
-      <image:title>Zaini Official with friends during a casual group moment</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/1-by-1/zaini-official-frontend-developer-office-chair.webp</image:loc>
+      <image:title>Zaini Official, frontend developer, seated in his office chair</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/4-3-landscape/zainiofficial-(22).jpeg</image:loc>
-      <image:title>Zaini Official receiving recognition at a sports event</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/1-by-1/zaini-official-basketball-squad-brick-wall.webp</image:loc>
+      <image:title>Zaini Official with his basketball squad posing in front of a brick wall</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/4-3-landscape/zainiofficial-(23).jpeg</image:loc>
-      <image:title>Zaini Official at a historic landmark during an evening visit</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/1-by-1/zaini-official-trophy-winner-garden-portrait.webp</image:loc>
+      <image:title>Zaini Official seated beside a star trophy after a tournament win</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/4-3-landscape/zainiofficial-(24).jpeg</image:loc>
-      <image:title>Zaini Official with friends during a casual gathering</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/4-3-landscape/zaini-official-basketball-teammates-pakistan-kit.webp</image:loc>
+      <image:title>Zaini Official with two basketball teammates wearing Pakistan team kit on a morning ground</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/4-3-landscape/zainiofficial-(25).jpeg</image:loc>
-      <image:title>Zaini Official with friends sharing a casual group moment</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/zaini-official-basketball-player-profile-poster-sargodha.webp</image:loc>
+      <image:title>Zaini Official basketball player profile poster, forward from Sargodha</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/4-3-landscape/zainiofficial-(26).jpeg</image:loc>
-      <image:title>Zaini Official with friends posing outdoors at an event</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/4-3-landscape/zaini-official-evening-sports-event-with-friends.webp</image:loc>
+      <image:title>Zaini Official seated with friends at an evening sports event in Lahore</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/4-3-landscape/zainiofficial-(27).jpeg</image:loc>
-      <image:title>Zaini Official with friends at an outdoor gathering</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/img_20260610_005901.webp</image:loc>
+      <image:title>Zaini Official in a white shirt leaning on a chair in a moody portrait</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/4-3-landscape/zainiofficial-(28).jpeg</image:loc>
-      <image:title>Zaini Official with friends during a casual indoor moment</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/1739260156678.webp</image:loc>
+      <image:title>Zaini Official in a black jacket and glasses in a seated portrait</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/4-3-landscape/zainiofficial-(29).jpeg</image:loc>
-      <image:title>Zaini Official seated with teammates at a basketball event</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/4-3-landscape/zaini-official-basketball-youtube-banner.webp</image:loc>
+      <image:title>Zaini Official basketball channel banner with the slogan Basketball never stops</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/4-3-landscape/zainiofficial-(30).jpg</image:loc>
-      <image:title>Zaini Official with friends posing together at a sports gathering</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/zaini-official-khelta-punjab-trio-portrait.webp</image:loc>
+      <image:title>Zaini Official with two teammates in Khelta Punjab tracksuits portrait</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/4-3-landscape/zainiofficial-(31).png</image:loc>
-      <image:title>Zaini Official with friends at a basketball event</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/4-3-landscape/zaini-official-friends-casual-portrait.webp</image:loc>
+      <image:title>Zaini Official with friends in a casual outdoor portrait</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/4-3-landscape/zainiofficial-(32).jpeg</image:loc>
-      <image:title>Zaini Official with friends at a casual indoor gathering</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/zaini-official-grey-tshirt-seated-portrait.webp</image:loc>
+      <image:title>Zaini Official seated in a grey t-shirt in a muted portrait</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/4-3-landscape/zainiofficial-(33).jpg</image:loc>
-      <image:title>Zaini Official with friends posing together</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/zaini-official-black-white-thoughtful-portrait.webp</image:loc>
+      <image:title>Zaini Official in a black and white thoughtful portrait</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/4-3-landscape/zainiofficial-(34).jpeg</image:loc>
-      <image:title>Zaini Official with a friend during a casual evening gathering</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/zaini-official-basketball-jersey-sitting-on-steps.webp</image:loc>
+      <image:title>Zaini Official sitting on steps in his basketball jersey and sunglasses</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/4-3-landscape/zainiofficial-(35).png</image:loc>
-      <image:title>Zaini Official featured in a basketball-themed profile graphic</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/zaini-official-black-polo-outdoor-basketball-court.webp</image:loc>
+      <image:title>Zaini Official in a black polo at an outdoor basketball court</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/1-by-1/zaini-official(1).jpeg</image:loc>
-      <image:title>Zaini Official holding a basketball in a portrait</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/zaini-official-trophy-night-sports-event.webp</image:loc>
+      <image:title>Zaini Official holding a trophy at a night sports event</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/1-by-1/zaini-official(2).jpg</image:loc>
-      <image:title>Zaini Official posing outdoors with a trophy</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/zaini-official-green-jersey-with-teammate-night-match.webp</image:loc>
+      <image:title>Zaini Official with a teammate in green basketball jerseys at a night match</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/1-by-1/zaini-official(3).jpg</image:loc>
-      <image:title>Zaini Official with friends posing together</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/zaini-official-black-jacket-sunglasses-field.webp</image:loc>
+      <image:title>Zaini Official in a black jacket and sunglasses on a field</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/1-by-1/zaini-official(4).jpeg</image:loc>
-      <image:title>Zaini Official with friends outdoors</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/zaini-official-frontend-developer-workstation.webp</image:loc>
+      <image:title>Zaini Official, frontend developer, at his workstation with dual monitors</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/1-by-1/zaini-official(5).jpeg</image:loc>
-      <image:title>Zaini Official with a friend posing outdoors</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/zaini-official-basketball-jersey-outdoor-court-portrait.webp</image:loc>
+      <image:title>Zaini Official in basketball jersey with arms crossed beside an outdoor hoop</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/1-by-1/zaini-official(6).jpg</image:loc>
-      <image:title>Zaini Official with friends wearing sports jackets outdoors</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/zaini-official-basketball-jersey-sunglasses-flowers.webp</image:loc>
+      <image:title>Zaini Official in basketball jersey and sunglasses beside flowering bushes</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/1-by-1/zaini-official(7).jpeg</image:loc>
-      <image:title>Zaini Official with friends wearing sports jackets outdoors</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/4-3-landscape/zaini-official-podium-speech-sports-day.webp</image:loc>
+      <image:title>Zaini Official delivering a speech at the podium during a sports day event</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/1-by-1/zaini-official(8).jpeg</image:loc>
-      <image:title>Zaini Official posing for a professional portrait</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/zaini-official-black-and-white-studio-portrait.webp</image:loc>
+      <image:title>Zaini Official in a black and white studio portrait with glasses</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/1-by-1/zaini-official(9).jpeg</image:loc>
-      <image:title>Zaini Official sitting with a teammate indoors</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/4-3-landscape/img-20260205-wa0012.webp</image:loc>
+      <image:title>Zaini Official at a rooftop dinner gathering with colleagues in Lahore at night</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/1-by-1/zaini-official(10).jpeg</image:loc>
-      <image:title>Zaini Official with teammates wearing matching sports uniforms</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/img_20260612_215801.webp</image:loc>
+      <image:title>Zaini Official in a hoodie and glasses in warm evening light</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/1-by-1/zaini-official(11).jpeg</image:loc>
-      <image:title>Zaini Official with a teammate walking outdoors</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/zaini-official-school-speech-govt-high-school-sargodha.webp</image:loc>
+      <image:title>Zaini Official giving a speech at Govt High School Hyderabad Town Sargodha</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/1-by-1/zaini-official(12).jpeg</image:loc>
-      <image:title>Zaini Official posing outdoors with a trophy</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/1-by-1/zaini-official-with-mentors-indoor-event.webp</image:loc>
+      <image:title>Zaini Official seated with mentors at an indoor sports event</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/1-by-1/zaini-official(13).jpeg</image:loc>
-      <image:title>Zaini Official wearing a basketball uniform in a portrait</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/1-by-1/zaini-official-khelta-punjab-winner-trophy-sargodha.webp</image:loc>
+      <image:title>Zaini Official holding the Khelta Punjab winner trophy for Sargodha Division</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/1-by-1/zaini-official(14).jpeg</image:loc>
-      <image:title>Zaini Official in a formal black-and-white portrait</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/1-by-1/zaini-official-with-coaches-sports-event.webp</image:loc>
+      <image:title>Zaini Official seated with coaches and mentors at a sports event</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/1-by-1/zaini-official(15).jpeg</image:loc>
-      <image:title>Zaini Official wearing sunglasses in a portrait</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/1-by-1/1738531023653.webp</image:loc>
+      <image:title>Zaini Official with the Khelta Punjab basketball team in a fun group pose</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/1-by-1/zaini-official(16).jpeg</image:loc>
-      <image:title>Zaini Official posing outdoors with a trophy</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/1-by-1/zaini-official-blue-jersey-headshot.webp</image:loc>
+      <image:title>Zaini Official close-up headshot in a blue basketball jersey</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/1-by-1/zaini-official(17).jpeg</image:loc>
-      <image:title>Zaini Official posing outdoors in casual clothing</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/1-by-1/zaini-official-college-uniform-tea-outdoors.webp</image:loc>
+      <image:title>Zaini Official in college uniform having tea outdoors</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/1-by-1/zaini-official(18).jpeg</image:loc>
-      <image:title>Zaini Official wearing a blue basketball jersey</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/1-by-1/zaini-official-zain-ali-jersey-13-with-friend.webp</image:loc>
+      <image:title>Zaini Official with a friend showing the Zain Ali number 13 basketball jersey</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/1-by-1/zaini-official(19).jpeg</image:loc>
-      <image:title>Zaini Official with teammates at a basketball award ceremony</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/1-by-1/zaini-official-with-friend-evening-event.webp</image:loc>
+      <image:title>Zaini Official with a friend at an evening event</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/1-by-1/zaini-official(20).jpeg</image:loc>
-      <image:title>Zaini Official with a group of teammates posing together</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/4-3-landscape/zaini-official-speaking-at-sports-event.webp</image:loc>
+      <image:title>Zaini Official speaking at the microphone during an outdoor sports event</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/1-by-1/zaini-official(21).jpeg</image:loc>
-      <image:title>Zaini Official with a teammate during a casual gathering</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/zaini-official-selfie-with-friend-near-field.webp</image:loc>
+      <image:title>Zaini Official taking a selfie with a friend near a field</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/1-by-1/zaini-official(22).jpeg</image:loc>
-      <image:title>Zaini Official wearing a blue basketball jersey in a portrait</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/4-3-landscape/img-20260205-wa0013.webp</image:loc>
+      <image:title>Zaini Official with colleagues at a rooftop dinner with Badshahi Mosque in the background</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/1-by-1/zaini-official(23).jpeg</image:loc>
-      <image:title>Zaini Official in a close-up portrait wearing a blue sports jersey</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/fb_img_1702236877041_image_repair_1702236916633.webp</image:loc>
+      <image:title>Zaini Official holding a large championship trophy at an indoor event</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/1-by-1/zaini-official(24).jpeg</image:loc>
-      <image:title>Zaini Official with a teammate wearing sports uniforms</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/zaini-official-microphone-sports-day-stage.webp</image:loc>
+      <image:title>Zaini Official holding a microphone on stage at a sports day</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/1-by-1/zaini-official(25).jpeg</image:loc>
-      <image:title>Zaini Official with a teammate wearing matching sports uniforms</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/zaini-official-khelta-punjab-champion-ceremony.webp</image:loc>
+      <image:title>Zaini Official as champion with medal and trophy at the Khelta Punjab Games ceremony</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/1-by-1/zaini-official(26).jpeg</image:loc>
-      <image:title>Zaini Official seated indoors during a casual moment</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/zaini-official-khelta-punjab-medal-and-trophy.webp</image:loc>
+      <image:title>Zaini Official with medal and trophy at the Khelta Punjab Games</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/1-by-1/zaini-official(27).jpeg</image:loc>
-      <image:title>Zaini Official seated in a bright indoor setting</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/img_20260615_202235.webp</image:loc>
+      <image:title>Zaini Official in a purple shirt sitting on a garden bench</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/1-by-1/zaini-official(28).jpeg</image:loc>
-      <image:title>Zaini Official sitting indoors beside a plant</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/1794402117534.webp</image:loc>
+      <image:title>Zaini Official in a white shirt sitting on a park bench</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/1-by-1/zaini-official(29).jpeg</image:loc>
-      <image:title>Zaini Official sitting in a chair wearing a checked shirt</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/1794402567978.webp</image:loc>
+      <image:title>Zaini Official in a white shirt standing in a poolside garden</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/1-by-1/zaini-official(30).jpeg</image:loc>
-      <image:title>Zaini Official posing indoors in a checked shirt</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/zaini-official-arms-crossed-garden-bench.webp</image:loc>
+      <image:title>Zaini Official with arms crossed on a garden bench</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/1-by-1/zaini-official(31).jpeg</image:loc>
-      <image:title>Zaini Official standing indoors in a checked shirt</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/1730828989179.webp</image:loc>
+      <image:title>Zaini Official holding a trophy in a Jordan t-shirt outdoors</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/1-by-1/zaini-official(32).jpeg</image:loc>
-      <image:title>Zaini Official with a friend posing outdoors</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/img_20260608_195857.webp</image:loc>
+      <image:title>Zaini Official holding a coffee mug at his office desk</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/1-by-1/zaini-official(33).jpeg</image:loc>
-      <image:title>Zaini Official in a formal studio-style portrait</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/4-3-landscape/zaini-official-basketball-team-photo-indoor-court.webp</image:loc>
+      <image:title>Zaini Official with the full basketball team and coaches on an indoor court</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/1-by-1/zaini-official(34).jpeg</image:loc>
-      <image:title>Zaini Official holding a basketball on an indoor court</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/zaini-official-punjab-games-2023-jersey-outdoors.webp</image:loc>
+      <image:title>Zaini Official wearing the Punjab Games 2023 jersey outdoors</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/1-by-1/zaini-official(35).jpeg</image:loc>
-      <image:title>Zaini Official seated with friends at an indoor event</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/4-3-landscape/zaini-official-basketball-squad-group-photo.webp</image:loc>
+      <image:title>Zaini Official with his basketball squad posing for a group photo in sportswear</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/1-by-1/zaini-official(36).jpeg</image:loc>
-      <image:title>Zaini Official seated at a sports event with a teammate</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/zaini-official-school-award-ceremony-sargodha.webp</image:loc>
+      <image:title>Zaini Official receiving an award at a school ceremony in Sargodha</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/1-by-1/zaini-official(37).jpeg</image:loc>
-      <image:title>Zaini Official seated with a teammate at a basketball event</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/zaini-official-school-friends-selfie-with-award.webp</image:loc>
+      <image:title>Zaini Official with school friends taking a selfie with an award</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/1-by-1/zaini-official(38).jpeg</image:loc>
-      <image:title>Zaini Official seated with a teammate during a sports event</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/zaini-official-grey-suit-seated-portrait.webp</image:loc>
+      <image:title>Zaini Official seated in a grey suit for a professional portrait</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/1-by-1/zaini-official(39).jpeg</image:loc>
-      <image:title>Zaini Official in a formal portrait wearing a white shirt and tie</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/zaini-official-khelta-punjab-team-group-photo.webp</image:loc>
+      <image:title>Zaini Official with the full Khelta Punjab team in a group photo</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/1-by-1/zaini-official(40).jpeg</image:loc>
-      <image:title>Zaini Official wearing a blue basketball jersey in front of a brick wall</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/4-3-landscape/zaini-official-khelta-punjab-tracksuit-teammates.webp</image:loc>
+      <image:title>Zaini Official with two teammates in Khelta Punjab tracksuits outdoors</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/1-by-1/zaini-official(41).jpg</image:loc>
-      <image:title>Zaini Official holding a trophy during a sports event</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/4-3-landscape/zaini-official-khelta-punjab-games-with-officials.webp</image:loc>
+      <image:title>Zaini Official in Pakistan tracksuit with officials at the Khelta Punjab Games</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/1-by-1/zaini-official(42).png</image:loc>
-      <image:title>Zaini Official in a formal portrait wearing a white shirt and tie</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/zaini-official-black-white-suit-watch-portrait.webp</image:loc>
+      <image:title>Zaini Official black and white portrait in a suit with a watch</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/1-by-1/zaini-official(43).jpeg</image:loc>
-      <image:title>Zaini Official with two friends outdoors</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/zaini-official-blue-superior-jersey-portrait.webp</image:loc>
+      <image:title>Zaini Official in a blue Superior college jersey portrait</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/1-by-1/zaini-official(44).png</image:loc>
-      <image:title>Zaini Official in a formal portrait wearing a suit</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/4-3-landscape/zaini-official-college-friends-outdoor-court.webp</image:loc>
+      <image:title>Zaini Official sitting with college friends beside an outdoor basketball court</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/1-by-1/zaini-official(45).jpeg</image:loc>
-      <image:title>Zaini Official with two friends during an evening gathering</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/img_20260615_211844.webp</image:loc>
+      <image:title>Zaini Official in a purple shirt seated by a swimming pool</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/1-by-1/zaini-official(46).jpg</image:loc>
-      <image:title>Zaini Official with a friend at a casual gathering</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/img_20260927_222909.webp</image:loc>
+      <image:title>Zaini Official seated on a sofa under the Experiences of Tomorrow Today wall at the office</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/1-by-1/zaini-official(47).jpg</image:loc>
-      <image:title>Zaini Official seated with friends during an indoor event</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/img_20260927_223513.webp</image:loc>
+      <image:title>Zaini Official in a thoughtful pose on the office sofa</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/1-by-1/zaini-official(48).jpeg</image:loc>
-      <image:title>Zaini Official with a friend outdoors</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/img_20260927_231322.webp</image:loc>
+      <image:title>Zaini Official in a red shirt giving a thumbs up at the office</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(2).jpg</image:loc>
-      <image:title>Zaini Official with friends at a basketball gathering</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/img_20261004_195728.webp</image:loc>
+      <image:title>Zaini Official at his developer workstation with code on screen</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(3).jpg</image:loc>
-      <image:title>Zaini Official holding a cricket bat on a sports field</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/img_20261029_193537.webp</image:loc>
+      <image:title>Zaini Official with headphones around his neck at his office desk</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(4).png</image:loc>
-      <image:title>Zaini Official holding a basketball indoors</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/img_20261029_194211.webp</image:loc>
+      <image:title>Zaini Official seated at his office desk in a maroon shirt</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(5).jpg</image:loc>
-      <image:title>Zaini Official holding a trophy outdoors</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/zaini-official-galaxy-basketball-club-with-teammate.webp</image:loc>
+      <image:title>Zaini Official with a teammate wearing Galaxy Basketball Club and Superior kits</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(6).jpg</image:loc>
-      <image:title>Zaini Official with a group of young athletes outdoors</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/4-3-landscape/zaini-official-college-basketball-team-outdoor-court.webp</image:loc>
+      <image:title>Zaini Official with his college basketball team and coaches on an outdoor court</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(7).jpeg</image:loc>
-      <image:title>Zaini Official posing outdoors in a blue sports jacket</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/zaini-official-speaking-microphone-sports-day.webp</image:loc>
+      <image:title>Zaini Official speaking into a microphone on a sports day stage</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(8).jpeg</image:loc>
-      <image:title>Zaini Official wearing a sports uniform during an indoor event</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/4-3-landscape/zaini-official-award-ceremony-khelta-punjab-games.webp</image:loc>
+      <image:title>Zaini Official honoured with a medal by officials at the Khelta Punjab Games ceremony</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(9).jpeg</image:loc>
-      <image:title>Zaini Official with a teammate at a sports event</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/zaini-official-sunglasses-white-shirt-selfie.webp</image:loc>
+      <image:title>Zaini Official in sunglasses and a white shirt selfie</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(10).jpeg</image:loc>
-      <image:title>Zaini Official with friends at a basketball gathering</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/zaini-official-with-coach-tournament-sargodha.webp</image:loc>
+      <image:title>Zaini Official with his coach at a basketball tournament in Sargodha</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(11).png</image:loc>
-      <image:title>Zaini Official posing in a dark outfit indoors</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/1-by-1/zaini-official-teammates-tracksuits-sitting-outdoors.webp</image:loc>
+      <image:title>Zaini Official sitting with teammates in sports tracksuits outdoors</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(12).png</image:loc>
-      <image:title>Zaini Official posing in a dark outfit for a portrait</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/1-by-1/zaini-official-checked-shirt-arms-crossed.webp</image:loc>
+      <image:title>Zaini Official standing with arms crossed wearing a checked shirt</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(13).png</image:loc>
-      <image:title>Zaini Official posing in a grey outfit for a portrait</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/1-by-1/img_20260420_002652.webp</image:loc>
+      <image:title>Zaini Official seated at his desk in a grey shirt in a thoughtful pose</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(14).jpeg</image:loc>
-      <image:title>Zaini Official in a black-and-white portrait</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/1-by-1/img_20261004_200333.webp</image:loc>
+      <image:title>Zaini Official, frontend developer, relaxing in his office chair beside his monitor</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(15).png</image:loc>
-      <image:title>Zaini Official posing in a dark outfit</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/1-by-1/zainiiii.webp</image:loc>
+      <image:title>Zaini Official studio portrait in a grey blazer and teal shirt</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(16).jpeg</image:loc>
-      <image:title>Zaini Official seated indoors beside a plant</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/1-by-1/zaini-official-portrait-black-shirt-glasses.webp</image:loc>
+      <image:title>Zaini Official portrait in a black shirt and glasses</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(17).png</image:loc>
-      <image:title>Zaini Official featured in a basketball event poster</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/1-by-1/zaini-official-blue-suit-professional-portrait.webp</image:loc>
+      <image:title>Zaini Official professional portrait in a blue suit</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(18).png</image:loc>
-      <image:title>Zaini Official posing outdoors with a trophy</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/1-by-1/zaini-official-with-friends-park-bench.webp</image:loc>
+      <image:title>Zaini Official with two friends on a park bench outdoors</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(19).jpeg</image:loc>
-      <image:title>Zaini Official seated indoors for a portrait</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/4-3-landscape/zaini-official-team-fun-moment-indoor-court.webp</image:loc>
+      <image:title>Zaini Official standing in front of the Badshahi Mosque in Lahore at night</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(20).jpeg</image:loc>
-      <image:title>Zaini Official sitting in a modern indoor setting</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/zaini-official-zain-ali-13-jersey-with-friend.webp</image:loc>
+      <image:title>Zaini Official with a friend showing the Zain Ali number 13 jersey</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(21).jpeg</image:loc>
-      <image:title>Zaini Official sitting indoors in a casual portrait</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/4-3-landscape/zaini-official-team-jerseys-indoor-basketball-court.webp</image:loc>
+      <image:title>Zaini Official with his basketball team in match jerseys on an indoor court</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(22).jpeg</image:loc>
-      <image:title>Zaini Official sitting in a modern indoor setting</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/zaini-official-lifting-championship-trophy-indoor.webp</image:loc>
+      <image:title>Zaini Official lifting a championship trophy at an indoor event</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(23).jpeg</image:loc>
-      <image:title>Zaini Official sitting outdoors in a purple shirt</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/zaini-official-brown-sweatshirt-sunglasses-portrait.webp</image:loc>
+      <image:title>Zaini Official in a brown sweatshirt and sunglasses against a teal backdrop</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(24).jpeg</image:loc>
-      <image:title>Zaini Official sitting outdoors in a purple shirt</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/zaini-official-historic-mosque-lahore-night-group.webp</image:loc>
+      <image:title>Zaini Official with a group at a historic mosque in Lahore at night</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(25).jpeg</image:loc>
-      <image:title>Zaini Official posing outdoors in a purple shirt</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/zaini-official-khelta-punjab-three-players.webp</image:loc>
+      <image:title>Zaini Official with two teammates in Khelta Punjab tracksuits</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(26).jpeg</image:loc>
-      <image:title>Zaini Official posing outdoors and looking at the camera</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/zaini-official-khelta-punjab-tracksuit-duo.webp</image:loc>
+      <image:title>Zaini Official and a teammate in Khelta Punjab tracksuits</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(27).jpeg</image:loc>
-      <image:title>Zaini Official standing outdoors in a purple shirt</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/zaini-official-team-outside-hotel-pak-heritage.webp</image:loc>
+      <image:title>Zaini Official with teammates outside Hotel Pak Heritage in tracksuits</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(28).jpeg</image:loc>
-      <image:title>Zaini Official sitting outdoors in a purple shirt</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/zaini-official-khelta-punjab-with-teammate-park.webp</image:loc>
+      <image:title>Zaini Official with a teammate in Khelta Punjab tracksuits in a park</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(29).jpeg</image:loc>
-      <image:title>Zaini Official sitting in an outdoor chair</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/zaini-official-holding-trophy-night-tournament.webp</image:loc>
+      <image:title>Zaini Official holding a winner's trophy at a night tournament</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(30).jpeg</image:loc>
-      <image:title>Zaini Official with a group of people at a historic landmark</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/zaini-official-standing-with-coach-tournament.webp</image:loc>
+      <image:title>Zaini Official standing with his coach at a basketball tournament</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(31).jpeg</image:loc>
-      <image:title>Zaini Official posing outdoors wearing sunglasses</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/zaini-official-seated-with-teammates-indoors.webp</image:loc>
+      <image:title>Zaini Official seated with teammates indoors</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(32).jpeg</image:loc>
-      <image:title>Zaini Official posing outdoors in a grey shirt</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/4-3-landscape/1734634822874.webp</image:loc>
+      <image:title>Zaini Official with four friends in sports jerseys sitting against a brick wall</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(33).jpeg</image:loc>
-      <image:title>Zaini Official with a teammate wearing sports uniforms</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/zaini-official-khelta-punjab-teammates-fun-pose.webp</image:loc>
+      <image:title>Zaini Official with Khelta Punjab teammates in a fun pose</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(34).jpeg</image:loc>
-      <image:title>Zaini Official with a teammate in basketball sportswear</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/4-3-landscape/zaini-official-khelta-punjab-2025-champions-trophy.webp</image:loc>
+      <image:title>Zaini Official with his championship-winning basketball team holding medals and the trophy at Khelta Punjab Games 2025</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(35).jpeg</image:loc>
-      <image:title>Zaini Official posing outdoors in a light shirt</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/zaini-official-denim-jacket-balcony-plants.webp</image:loc>
+      <image:title>Zaini Official in a denim jacket on a balcony with plants</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(36).jpeg</image:loc>
-      <image:title>Zaini Official standing outdoors near a tree</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/zaini-official-sunset-monument-scarf-sunglasses.webp</image:loc>
+      <image:title>Zaini Official in a scarf and sunglasses at a sunset monument view</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(37).jpeg</image:loc>
-      <image:title>Zaini Official posing outdoors in a yellow shirt</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/4-3-landscape/zaini-official-teammates-laughing-sports-hall.webp</image:loc>
+      <image:title>Zaini Official and teammates laughing together in a sports hall</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(38).jpeg</image:loc>
-      <image:title>Zaini Official standing outdoors with folded arms</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/zaini-official-cafe-portrait-turtleneck-coat.webp</image:loc>
+      <image:title>Zaini Official seated in a cafe wearing a turtleneck and coat</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(39).jpeg</image:loc>
-      <image:title>Zaini Official wearing a blue basketball jersey</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/4-3-landscape/zaini-official-team-tracksuits-on-steps.webp</image:loc>
+      <image:title>Zaini Official with his basketball team in green tracksuits posing on steps</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(40).jpeg</image:loc>
-      <image:title>Zaini Official holding a trophy at a sports event</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/zaini-official-black-hoodie-standing-beside-car.webp</image:loc>
+      <image:title>Zaini Official in a black hoodie standing beside a car</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(41).jpeg</image:loc>
-      <image:title>Zaini Official holding a cricket bat during an evening sports event</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/zaini-official-grey-suit-laptop-office.webp</image:loc>
+      <image:title>Zaini Official in a grey suit working on a laptop in a modern office</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(42).jpeg</image:loc>
-      <image:title>Zaini Official holding a cricket bat on a sports field at night</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/1-by-1/zaini-official-national-team-tracksuits-teammates.webp</image:loc>
+      <image:title>Zaini Official with two teammates in national team tracksuits sitting on steps</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(43).jpeg</image:loc>
-      <image:title>Zaini Official posing outdoors in a white shirt and tie</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/1-by-1/zaini-official-office-workspace-portrait.webp</image:loc>
+      <image:title>Zaini Official at his office workspace desk</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(44).jpeg</image:loc>
-      <image:title>Zaini Official standing outdoors in formal clothing</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/1-by-1/zaini-official-web-developer-office-desk.webp</image:loc>
+      <image:title>Zaini Official working at his desk as a web developer in the office</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(45).jpeg</image:loc>
-      <image:title>Zaini Official taking a casual selfie outdoors</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/1-by-1/zaini-official-sports-department-sargodha-event.webp</image:loc>
+      <image:title>Zaini Official at a Sports Department Sargodha event with his coach</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(46).jpeg</image:loc>
-      <image:title>Zaini Official wearing formal clothing in a portrait</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/1-by-1/zaini-official-with-mentor-tournament-sidelines.webp</image:loc>
+      <image:title>Zaini Official sitting with his mentor on the sidelines of a tournament</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(47).jpeg</image:loc>
-      <image:title>Zaini Official speaking at a podium during an event</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/1-by-1/zaini-official-pakistan-tracksuit-with-senior-guest.webp</image:loc>
+      <image:title>Zaini Official in Pakistan team tracksuit seated with a senior guest</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(48).jpeg</image:loc>
-      <image:title>Zaini Official with people at an outdoor community event</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/1-by-1/zaini-official-with-friends-autumn-outdoors.webp</image:loc>
+      <image:title>Zaini Official sitting with two friends outdoors in autumn</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(49).jpeg</image:loc>
-      <image:title>Zaini Official with a friend during a casual outdoor moment</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/zaini-official-teammates-smiling-sports-hall.webp</image:loc>
+      <image:title>Zaini Official smiling with teammates in a sports hall</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(50).jpeg</image:loc>
-      <image:title>Zaini Official posing in a purple shirt outdoors</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/zaini-official-mustard-polo-arms-crossed-field.webp</image:loc>
+      <image:title>Zaini Official with arms crossed in a mustard polo on a sports field</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(51).jpeg</image:loc>
-      <image:title>Zaini Official posing outdoors in a light-colored outfit</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/zaini-official-motorcycle-superior-college-jacket.webp</image:loc>
+      <image:title>Zaini Official on a motorcycle in a Superior college jacket</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(52).jpeg</image:loc>
-      <image:title>Zaini Official in a formal portrait wearing a blazer</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/zaini-official-raising-winner-trophy-floodlit-ground.webp</image:loc>
+      <image:title>Zaini Official raising the winner's trophy on a floodlit ground</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(53).jpeg</image:loc>
-      <image:title>Zaini Official walking outdoors near a basketball court</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/zaini-official-ribbon-cutting-sports-event.webp</image:loc>
+      <image:title>Zaini Official at a ribbon cutting ceremony with officials at a sports event</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(54).jpeg</image:loc>
-      <image:title>Zaini Official walking outdoors with a friend</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/zaini-official-blue-team-jacket-phone-sitting.webp</image:loc>
+      <image:title>Zaini Official sitting outdoors in a blue team jacket using his phone</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(55).jpeg</image:loc>
-      <image:title>Zaini Official taking a casual selfie</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/1733477270150.webp</image:loc>
+      <image:title>Zaini Official with friends posing at a historic monument in Lahore</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(56).jpeg</image:loc>
-      <image:title>Zaini Official wearing a basketball-themed shirt</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/zaini-official-web-developer-office-desk-portrait.webp</image:loc>
+      <image:title>Zaini Official, web developer, seated at his office desk</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(57).jpeg</image:loc>
-      <image:title>Zaini Official in a formal portrait wearing a blazer</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/4-3-landscape/1733335186497.webp</image:loc>
+      <image:title>Zaini Official with teammates holding a trophy in front of a brick wall</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(58).jpeg</image:loc>
-      <image:title>Zaini Official with a teammate at a sports event</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/zaini-official-checked-shirt-glasses-green-field.webp</image:loc>
+      <image:title>Zaini Official in a checked shirt and glasses in a green field</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(59).jpeg</image:loc>
-      <image:title>Zaini Official wearing a basketball-themed shirt outdoors</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/4-3-landscape/zaini-official-national-basketball-players-outdoors.webp</image:loc>
+      <image:title>Zaini Official standing with fellow national-level basketball players in team tracksuits</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(60).jpeg</image:loc>
-      <image:title>Zaini Official with a friend outdoors</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/zaini-official-blue-superior-jersey-brick-wall.webp</image:loc>
+      <image:title>Zaini Official in a blue Superior jersey against a brick wall</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(61).jpeg</image:loc>
-      <image:title>Zaini Official taking a close-up selfie</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(62).jpeg</image:loc>
-      <image:title>Zaini Official in a formal portrait wearing a shirt and tie</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(63).jpeg</image:loc>
-      <image:title>Zaini Official seated indoors at a workstation</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(64).jpeg</image:loc>
-      <image:title>Zaini Official seated outdoors in a black outfit</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(65).jpeg</image:loc>
-      <image:title>Zaini Official seated outdoors in a black outfit</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(66).jpeg</image:loc>
-      <image:title>Zaini Official sitting outdoors in a garden setting</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(67).jpeg</image:loc>
-      <image:title>Zaini Official sitting outdoors in a garden setting</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(68).jpeg</image:loc>
-      <image:title>Zaini Official relaxing outdoors in a garden setting</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(69).jpeg</image:loc>
-      <image:title>Zaini Official relaxing outdoors in a garden setting</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(70).jpeg</image:loc>
-      <image:title>Zaini Official sitting outdoors on a bench</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(71).jpeg</image:loc>
-      <image:title>Zaini Official sitting outdoors on a bench</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(72).jpeg</image:loc>
-      <image:title>Zaini Official standing outdoors during sunset</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(73).jpeg</image:loc>
-      <image:title>Zaini Official sitting outdoors at an event</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(74).jpeg</image:loc>
-      <image:title>Zaini Official working at a desk in a modern office</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(75).jpeg</image:loc>
-      <image:title>Zaini Official working in a cafe-style workspace</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(76).jpeg</image:loc>
-      <image:title>Zaini Official with a teammate at a sports event</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(77).jpeg</image:loc>
-      <image:title>Zaini Official standing indoors near a doorway</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(78).jpeg</image:loc>
-      <image:title>Zaini Official posing outdoors with a trophy</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(79).jpeg</image:loc>
-      <image:title>Zaini Official with a friend during an evening gathering</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(80).jpeg</image:loc>
-      <image:title>Zaini Official posing outdoors in a dark polo shirt</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(81).jpeg</image:loc>
-      <image:title>Zaini Official with a teammate wearing sports jerseys</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(82).jpeg</image:loc>
-      <image:title>Zaini Official wearing a dark sports jersey</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(83).jpeg</image:loc>
-      <image:title>Zaini Official with friends during a casual indoor moment</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(84).jpeg</image:loc>
-      <image:title>Zaini Official with friends outdoors</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(85).jpeg</image:loc>
-      <image:title>Zaini Official wearing a basketball jersey outdoors</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(86).jpeg</image:loc>
-      <image:title>Zaini Official wearing a basketball jersey and sunglasses</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(87).jpeg</image:loc>
-      <image:title>Zaini Official wearing a basketball jersey outdoors</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(88).jpeg</image:loc>
-      <image:title>Zaini Official wearing a basketball jersey outdoors</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(89).jpeg</image:loc>
-      <image:title>Zaini Official posing outdoors in a casual shirt</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(90).jpeg</image:loc>
-      <image:title>Zaini Official with a friend in a portrait</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(91).jpeg</image:loc>
-      <image:title>Zaini Official wearing a basketball jersey outdoors</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(92).jpeg</image:loc>
-      <image:title>Zaini Official wearing a basketball jersey outdoors</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(93).jpeg</image:loc>
-      <image:title>Zaini Official with a group of friends at an outdoor gathering</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(94).jpeg</image:loc>
-      <image:title>Zaini Official wearing a blue basketball jersey</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(95).jpeg</image:loc>
-      <image:title>Zaini Official wearing a basketball jersey during a team moment</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(96).jpeg</image:loc>
-      <image:title>Zaini Official wearing a blue basketball jersey in a portrait</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(97).jpeg</image:loc>
-      <image:title>Zaini Official with friends during a basketball gathering</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(98).jpeg</image:loc>
-      <image:title>Zaini Official with a friend at an event</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(99).jpeg</image:loc>
-      <image:title>Zaini Official holding a trophy outdoors</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(100).jpeg</image:loc>
-      <image:title>Zaini Official riding a motorcycle outdoors</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(101).jpeg</image:loc>
-      <image:title>Zaini Official with friends during an indoor event</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(102).jpeg</image:loc>
-      <image:title>Zaini Official posing outdoors in a dark outfit</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(103).jpeg</image:loc>
-      <image:title>Zaini Official holding a trophy at a basketball event</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(104).jpeg</image:loc>
-      <image:title>Zaini Official holding a trophy at a sports event</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(105).jpeg</image:loc>
-      <image:title>Zaini Official with teammates celebrating a sports event</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(106).jpeg</image:loc>
-      <image:title>Zaini Official with teammates wearing matching sports uniforms</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(107).jpeg</image:loc>
-      <image:title>Zaini Official with teammates wearing matching sports uniforms</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(108).jpeg</image:loc>
-      <image:title>Zaini Official with teammates posing outdoors</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(109).jpeg</image:loc>
-      <image:title>Zaini Official with teammates posing outdoors</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(110).jpeg</image:loc>
-      <image:title>Zaini Official standing at a sports venue</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(111).jpeg</image:loc>
-      <image:title>Zaini Official with a basketball team at an indoor venue</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(112).jpg</image:loc>
-      <image:title>Zaini Official with friends at an indoor gathering</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(113).jpeg</image:loc>
-      <image:title>Zaini Official with teammates wearing matching sports uniforms</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(114).jpeg</image:loc>
-      <image:title>Zaini Official in a black-and-white portrait</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(115).png</image:loc>
-      <image:title>Zaini Official wearing a basketball jersey</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(116).jpeg</image:loc>
-      <image:title>Zaini Official at a basketball tournament event</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(117).png</image:loc>
-      <image:title>Zaini Official in a formal portrait wearing a shirt and tie</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(118).jpeg</image:loc>
-      <image:title>Zaini Official posing outdoors in a purple sports outfit</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(119).jpg</image:loc>
-      <image:title>Zaini Official wearing a basketball jersey outdoors</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(120).jpeg</image:loc>
-      <image:title>Zaini Official posing outdoors in casual clothing</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(121).png</image:loc>
-      <image:title>Zaini Official working at a desk in a modern office</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(122).jpeg</image:loc>
-      <image:title>Zaini Official posing outdoors in a purple sports outfit</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(123).png</image:loc>
-      <image:title>Zaini Official standing outdoors during sunset</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(124).png</image:loc>
-      <image:title>Zaini Official working in a cafe-style workspace</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(125).png</image:loc>
-      <image:title>Zaini Official standing indoors near a doorway</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(126).png</image:loc>
-      <image:title>Zaini Official in a black-and-white portrait</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(127).png</image:loc>
-      <image:title>Zaini Official sitting outdoors near a parked car</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(128).jpeg</image:loc>
-      <image:title>Zaini Official with friends at an indoor gathering</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(129).jpeg</image:loc>
-      <image:title>Zaini Official sitting in an indoor chair</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(130).jpeg</image:loc>
-      <image:title>Zaini Official wearing a basketball jersey outdoors</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(131).png</image:loc>
-      <image:title>Zaini Official in a formal portrait wearing a blazer</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(132).jpeg</image:loc>
-      <image:title>Zaini Official in a close-up portrait</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(133).png</image:loc>
-      <image:title>Zaini Official with a group of people at an outdoor event</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(134).png</image:loc>
-      <image:title>Zaini Official sitting outdoors at an event</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/ZainiOfficial(135).png</image:loc>
-      <image:title>Zaini Official posing outdoors in formal clothing</image:title>
+      <image:loc>https://zainiofficial.vercel.app/images/3-4-sm-long/zaini-official-basketball-squad-outdoor-group.webp</image:loc>
+      <image:title>Zaini Official with his basketball squad in an outdoor group photo</image:title>
     </image:image>
   </url>
 
